@@ -210,3 +210,21 @@ footer {
   .filters select, .filters input { min-width: 100%; }
   .filters label { width: 100%; }
 }
+
+.sea {
+  border-radius: 12px;
+  padding: .55rem .7rem;
+  font-size: .9rem;
+  font-weight: 650;
+}
+.sea.has {
+  background: #dff6ff;
+  color: #075985;
+  border: 1px solid #bae6fd;
+}
+.sea.missing {
+  background: #f3f4f6;
+  color: #6b7280;
+  border: 1px solid #e5e7eb;
+  font-weight: 500;
+}

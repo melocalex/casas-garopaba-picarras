@@ -24,12 +24,14 @@ async function boot() {
   document.getElementById("maxTotal").addEventListener("input", render);
   document.getElementById("minQuartos").addEventListener("change", render);
   document.getElementById("sort").addEventListener("change", render);
+  document.getElementById("marFilter").addEventListener("change", render);
   document.getElementById("reset").addEventListener("click", () => {
     document.getElementById("cidade").value = "";
     document.getElementById("veredito").value = "";
     document.getElementById("maxTotal").value = "";
     document.getElementById("minQuartos").value = "";
     document.getElementById("sort").value = "custo";
+    document.getElementById("marFilter").value = "";
     render();
   });
   render();
@@ -52,15 +54,27 @@ function filtered() {
   const veredito = document.getElementById("veredito").value;
   const maxTotal = Number(document.getElementById("maxTotal").value || Infinity);
   const minQuartos = Number(document.getElementById("minQuartos").value || 0);
+  const marFilter = document.getElementById("marFilter").value;
   const sort = document.getElementById("sort").value;
   let list = casas.filter(c => c.status === "ativo");
   if (cidade) list = list.filter(c => c.cidade === cidade);
   if (veredito) list = list.filter(c => c.veredito === veredito);
   list = list.filter(c => (c.total_estimado ?? Infinity) <= maxTotal);
   list = list.filter(c => (c.quartos ?? 0) >= minQuartos || minQuartos === 0);
+  if (marFilter === "com") list = list.filter(c => !!c.distancia_mar);
+  if (marFilter === "sem") list = list.filter(c => !c.distancia_mar);
+  if (marFilter === "500") list = list.filter(c => c.distancia_mar_metros != null && c.distancia_mar_metros <= 500);
+  if (marFilter === "1000") list = list.filter(c => c.distancia_mar_metros != null && c.distancia_mar_metros <= 1000);
   list.sort((a,b) => {
     if (sort === "total") return (a.total_estimado||9e9) - (b.total_estimado||9e9);
     if (sort === "nota") return (b.nota_qualidade||0) - (a.nota_qualidade||0);
+    if (sort === "mar") {
+      const am = a.distancia_mar_metros, bm = b.distancia_mar_metros;
+      if (am == null && bm == null) return 0;
+      if (am == null) return 1; // null last
+      if (bm == null) return -1;
+      return am - bm;
+    }
     // custo-benefício = nota / total
     const ca = (a.nota_qualidade||0) / Math.max(a.total_estimado||1,1);
     const cb = (b.nota_qualidade||0) / Math.max(b.total_estimado||1,1);
@@ -91,13 +105,14 @@ function card(c) {
         </div>
         <span class="badge ${c.veredito}">${c.veredito}</span>
       </div>
+      <div class="sea ${c.distancia_mar ? 'has' : 'missing'}">${c.distancia_mar ? `🌊 ${c.distancia_mar}` : '🌊 Distância do mar: não informada'}</div>
       <div class="nums">
         <div><strong>${money(c.total_estimado)}</strong><span>total est.</span></div>
         <div><strong>${val(c.quartos)} q</strong><span>${val(c.banheiros)} banheiros</span></div>
         <div><strong>${val(c.nota_qualidade)}</strong><span>nota QoL</span></div>
       </div>
       <div class="note">Aluguel ${money(c.aluguel)} · ${taxaBits}<br>
-      Anual: ${val(c.anual)} · Praia: ${val(c.praia_declarada)} · Disp.: ${val(c.disponibilidade)} · Pets: ${val(c.pets)} · Mobiliado: ${val(c.mobiliado)} · Área: ${c.area_m2 ? c.area_m2+" m²" : "não informado"}</div>
+      Anual: ${val(c.anual)} · Disp.: ${val(c.disponibilidade)} · Pets: ${val(c.pets)} · Mobiliado: ${val(c.mobiliado)} · Área: ${c.area_m2 ? c.area_m2+" m²" : "não informado"}</div>
       <p class="analise">${val(c.analise)}</p>
       <div>
         <strong>Prós</strong>

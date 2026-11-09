@@ -47,11 +47,21 @@
           <option value="3">3+</option>
         </select>
       </label>
+      <label>Distância do mar
+        <select id="marFilter">
+          <option value="">Todas</option>
+          <option value="com">Só com distância no anúncio</option>
+          <option value="sem">Sem distância informada</option>
+          <option value="500">Até 500 m (anúncio)</option>
+          <option value="1000">Até 1 km (anúncio)</option>
+        </select>
+      </label>
       <label>Ordenar
         <select id="sort">
           <option value="custo">Custo-benefício</option>
           <option value="total">Menor total</option>
           <option value="nota">Maior nota</option>
+          <option value="mar">Mais perto do mar</option>
         </select>
       </label>
       <button type="button" id="reset">Limpar</button>

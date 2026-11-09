@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-09T15:40:00-03:00",
+  "atualizado_em": "2026-11-09T15:45:00-03:00",
   "fuso": "America/Sao_Paulo",
   "casas": [
     {
@@ -23,7 +23,7 @@
       "area_m2": 109,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "750 m",
+      "praia_declarada": "750 m da praia",
       "pets": "",
       "mobiliado": "semi",
       "nota_qualidade": 8.5,
@@ -44,7 +44,9 @@
       "foto": "images/pic-loc010.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": "750 m da praia (anúncio)",
+      "distancia_mar_metros": 750
     },
     {
       "id": "pic-loc061",
@@ -67,7 +69,7 @@
       "area_m2": 65,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "450 m",
+      "praia_declarada": "450 m da praia",
       "pets": "",
       "mobiliado": "sim",
       "nota_qualidade": 7.5,
@@ -88,7 +90,9 @@
       "foto": "images/pic-loc061.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": "450 m da praia (anúncio)",
+      "distancia_mar_metros": 450
     },
     {
       "id": "pic-cli292",
@@ -111,7 +115,7 @@
       "area_m2": 88,
       "anual": "sim",
       "disponibilidade": "Liberada em 01/12/2026",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "semi",
       "nota_qualidade": 7,
@@ -132,7 +136,9 @@
       "foto": "images/pic-cli292.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "pic-loc055",
@@ -155,7 +161,7 @@
       "area_m2": 60,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "sim",
       "nota_qualidade": 5.5,
@@ -174,7 +180,9 @@
       "foto": "images/pic-loc055.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "pic-maravista",
@@ -197,7 +205,7 @@
       "area_m2": 94,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "700 m",
+      "praia_declarada": "700 m do mar",
       "pets": "",
       "mobiliado": "sim",
       "nota_qualidade": 8,
@@ -218,7 +226,9 @@
       "foto": "images/pic-maravista.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": "700 m do mar (anúncio)",
+      "distancia_mar_metros": 700
     },
     {
       "id": "pic-dez2500",
@@ -241,7 +251,7 @@
       "area_m2": 79,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "semi",
       "nota_qualidade": 7.5,
@@ -262,7 +272,9 @@
       "foto": "images/pic-dez2500.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "pic-ca0113",
@@ -285,7 +297,7 @@
       "area_m2": 59,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "não",
       "mobiliado": "semi",
       "nota_qualidade": 6.5,
@@ -305,7 +317,9 @@
       "foto": "images/pic-ca0113.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "pic-ca0052",
@@ -328,7 +342,7 @@
       "area_m2": 65,
       "anual": "não confirmado",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "não",
       "mobiliado": "",
       "nota_qualidade": 5,
@@ -347,7 +361,9 @@
       "foto": "images/pic-ca0052.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "pic-ca0110",
@@ -370,7 +386,7 @@
       "area_m2": 80,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "sim",
       "nota_qualidade": 5,
@@ -388,7 +404,9 @@
       "foto": "images/pic-ca0110.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "gar-centro",
@@ -411,7 +429,7 @@
       "area_m2": 120,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "",
       "nota_qualidade": 7.5,
@@ -431,7 +449,9 @@
       "foto": "images/gar-centro.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "gar-ambrosio",
@@ -454,7 +474,7 @@
       "area_m2": 100,
       "anual": "não confirmado",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "semi",
       "nota_qualidade": 7,
@@ -473,7 +493,9 @@
       "foto": "images/gar-ambrosio.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "gar-franco",
@@ -496,7 +518,7 @@
       "area_m2": 60,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "semi",
       "nota_qualidade": 8,
@@ -517,7 +539,9 @@
       "foto": "images/gar-franco.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "gar-ferrugem",
@@ -540,7 +564,7 @@
       "area_m2": 67,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "menos de 20 m",
+      "praia_declarada": "menos de 20 m do mar",
       "pets": "",
       "mobiliado": "sim",
       "nota_qualidade": 8,
@@ -560,7 +584,9 @@
       "foto": "images/gar-ferrugem.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": "menos de 20 m do mar (anúncio)",
+      "distancia_mar_metros": 20
     },
     {
       "id": "gar-encantada",
@@ -583,7 +609,7 @@
       "area_m2": null,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "sim",
       "nota_qualidade": 7,
@@ -603,7 +629,9 @@
       "foto": "images/gar-encantada.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "gar-villa",
@@ -626,7 +654,7 @@
       "area_m2": 89,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "",
       "nota_qualidade": 5,
@@ -645,7 +673,9 @@
       "foto": "",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "gar-alexia",
@@ -668,7 +698,7 @@
       "area_m2": null,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "500 m",
+      "praia_declarada": "500 m da praia do centro",
       "pets": "",
       "mobiliado": "",
       "nota_qualidade": 5,
@@ -686,7 +716,9 @@
       "foto": "",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": "500 m da praia do centro (anúncio)",
+      "distancia_mar_metros": 500
     },
     {
       "id": "gar-olx-ferrugem",
@@ -730,7 +762,9 @@
       "foto": "images/gar-olx-ferrugem.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": "150 m / pé na areia (anúncio)",
+      "distancia_mar_metros": 150
     },
     {
       "id": "gar-olx-centro",
@@ -753,7 +787,7 @@
       "area_m2": 74,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "semi",
       "nota_qualidade": 7,
@@ -773,7 +807,9 @@
       "foto": "images/gar-olx-centro.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "gar-olx-macacu",
@@ -796,7 +832,7 @@
       "area_m2": 90,
       "anual": "sim",
       "disponibilidade": "Início de dezembro",
-      "praia_declarada": "bem pertinho da praia (sem metros)",
+      "praia_declarada": "bem pertinho da praia",
       "pets": "sim",
       "mobiliado": "não",
       "nota_qualidade": 7,
@@ -818,7 +854,9 @@
       "foto": "images/gar-olx-macacu.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": "bem pertinho da praia (anúncio, sem metros)",
+      "distancia_mar_metros": null
     },
     {
       "id": "gar-olx-palhocinha",
@@ -841,7 +879,7 @@
       "area_m2": 90,
       "anual": "sim",
       "disponibilidade": "15/11/2026",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "sim",
       "mobiliado": "",
       "nota_qualidade": 8,
@@ -862,7 +900,9 @@
       "foto": "images/gar-olx-palhocinha.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "gar-olx-campoduna",
@@ -885,7 +925,7 @@
       "area_m2": null,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "sim",
       "mobiliado": "parcial",
       "nota_qualidade": 6,
@@ -905,7 +945,9 @@
       "foto": "images/gar-olx-campoduna.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "pic-olx-1528599147",
@@ -928,7 +970,7 @@
       "area_m2": 70,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "",
       "nota_qualidade": 7,
@@ -951,7 +993,9 @@
       "foto": "images/pic-olx-terreno.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "pic-olx-1549290862",
@@ -974,7 +1018,7 @@
       "area_m2": 70,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "não",
       "nota_qualidade": 7.5,
@@ -995,7 +1039,9 @@
       "foto": "images/pic-olx-nova.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     },
     {
       "id": "pic-olx-1541525867",
@@ -1018,7 +1064,7 @@
       "area_m2": 80,
       "anual": "sim",
       "disponibilidade": "",
-      "praia_declarada": "1.000 m",
+      "praia_declarada": "1.000 m da praia",
       "pets": "",
       "mobiliado": "sim",
       "nota_qualidade": 7.5,
@@ -1040,7 +1086,9 @@
       "foto": "images/pic-olx-mobiliada.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": "1.000 m da praia (anúncio)",
+      "distancia_mar_metros": 1000
     },
     {
       "id": "pic-olx-1550301029",
@@ -1063,7 +1111,7 @@
       "area_m2": 80,
       "anual": "não confirmado",
       "disponibilidade": "",
-      "praia_declarada": "200 m",
+      "praia_declarada": "200 m da praia",
       "pets": "confirmar",
       "mobiliado": "sim",
       "nota_qualidade": 7.5,
@@ -1085,7 +1133,9 @@
       "foto": "images/pic-olx-centro-pool.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": "200 m da praia (anúncio)",
+      "distancia_mar_metros": 200
     },
     {
       "id": "pic-olx-1547577411",
@@ -1108,7 +1158,7 @@
       "area_m2": 90,
       "anual": "não confirmado",
       "disponibilidade": "",
-      "praia_declarada": "",
+      "praia_declarada": null,
       "pets": "",
       "mobiliado": "sim",
       "nota_qualidade": 8,
@@ -1130,7 +1180,9 @@
       "foto": "images/pic-olx-itacolomi-24423.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "distancia_mar": null,
+      "distancia_mar_metros": null
     }
   ]
 }

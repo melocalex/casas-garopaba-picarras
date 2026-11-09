@@ -10,7 +10,7 @@ Painel estático (HTML + CSS + JS) para acompanhar **casas** de locação anual/
 
 ### Campos principais por casa
 
-`id`, `cidade`, `bairro`, `titulo`, `url`, `fonte`, `aluguel`, `taxas`, `total_estimado`, `quartos`, `banheiros`, `area_m2`, `anual`, `disponibilidade`, `praia_declarada`, `pets`, `mobiliado`, `nota_qualidade`, `veredito`, `pros`, `contras`, `analise`, `foto`, `status`, `visto_em`, `adicionado_em`.
+`id`, `cidade`, `bairro`, `titulo`, `url`, `fonte`, `aluguel`, `taxas`, `total_estimado`, `quartos`, `banheiros`, `area_m2`, `anual`, `disponibilidade`, `praia_declarada`, `distancia_mar`, `distancia_mar_metros`, `pets`, `mobiliado`, `nota_qualidade`, `veredito`, `pros`, `contras`, `analise`, `foto`, `status`, `visto_em`, `adicionado_em`.
 
 Campos desconhecidos ficam vazios/`null` e o site mostra **não informado**.
 
