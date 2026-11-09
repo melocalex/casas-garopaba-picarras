@@ -75,8 +75,24 @@
           <option value="mar">Mais perto do mar</option>
         </select>
       </label>
-      <button type="button" id="reset">Limpar</button>
+      <label>Minha escolha
+        <select id="escolhaFilter">
+          <option value="hide_nao" selected>Esconder Não</option>
+          <option value="">Todas</option>
+          <option value="sim">Só Sim</option>
+          <option value="pendente">Ainda não avaliadas</option>
+          <option value="nao">Só Não</option>
+        </select>
+      </label>
+      <button type="button" id="reset">Limpar filtros</button>
       <span class="note" id="count"></span>
+      <div class="escolha-bar">
+        <span id="escolhaCounters" class="escolha-counters">Sim 0 · Não 0 · Pendentes 0</span>
+        <button type="button" id="exportEscolhas" class="btn-tool">Exportar escolhas</button>
+        <button type="button" id="importEscolhas" class="btn-tool">Importar</button>
+        <button type="button" id="clearEscolhas" class="btn-tool danger">Limpar escolhas</button>
+      </div>
+      <p id="escolhaMsg" class="note escolha-msg" hidden></p>
     </section>
 
     <section id="ranking" class="ranking" aria-live="polite"></section>

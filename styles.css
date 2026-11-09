@@ -274,3 +274,75 @@ footer {
   .rank-row { grid-template-columns: 2.6rem 3.6rem 1fr; }
   .rank-actions { grid-column: 1 / -1; }
 }
+
+/* Sim / Não escolhas */
+.escolha-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem .65rem;
+  align-items: center;
+  width: 100%;
+  margin-top: .35rem;
+}
+.escolha-counters {
+  font-weight: 700;
+  color: #0f172a;
+  margin-right: .35rem;
+}
+.escolha-msg { width: 100%; color: #0369a1; }
+.btn-tool {
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  border-radius: 999px;
+  padding: .45rem .85rem;
+  font-size: .85rem;
+  cursor: pointer;
+}
+.btn-tool.danger { border-color: #fecaca; color: #b91c1c; background: #fef2f2; }
+.btn-tool:active { transform: scale(.98); }
+
+.vote {
+  display: flex;
+  gap: .5rem;
+  margin: .55rem 0 .2rem;
+}
+.vote-btn {
+  flex: 1;
+  min-height: 44px;
+  min-width: 88px;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  font-weight: 800;
+  font-size: 1rem;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.vote-btn.sim {
+  background: #ecfdf5;
+  color: #047857;
+  border-color: #a7f3d0;
+}
+.vote-btn.nao {
+  background: #fef2f2;
+  color: #b91c1c;
+  border-color: #fecaca;
+}
+.vote-btn.sim.on {
+  background: #059669;
+  color: #fff;
+  border-color: #047857;
+  box-shadow: 0 0 0 3px rgba(5,150,105,.25);
+}
+.vote-btn.nao.on {
+  background: #dc2626;
+  color: #fff;
+  border-color: #b91c1c;
+  box-shadow: 0 0 0 3px rgba(220,38,38,.2);
+}
+.rank-row.marked-sim, .card.marked-sim { border-color: #6ee7b7; box-shadow: inset 3px 0 0 #059669; }
+.rank-row.marked-nao, .card.marked-nao { border-color: #fca5a5; box-shadow: inset 3px 0 0 #dc2626; opacity: .85; }
+@media (max-width: 720px) {
+  .vote-btn { min-height: 48px; font-size: 1.05rem; }
+  .escolha-bar { flex-direction: column; align-items: stretch; }
+  .btn-tool { width: 100%; text-align: center; padding: .65rem; }
+}
