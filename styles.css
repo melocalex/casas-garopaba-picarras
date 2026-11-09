@@ -403,3 +403,15 @@ footer {
 .badge-mob.vazia { background: #dcfce7; color: #166534; border-color: #bbf7d0; }
 .badge-mob.ni { background: #f3f4f6; color: #4b5563; border-color: #e5e7eb; }
 .descartadas-mob { border-top: 1px dashed #fca5a5; padding-top: 1rem; }
+
+
+.rank-motivo {
+  margin-top: .35rem;
+  padding: .45rem .6rem;
+  border-radius: 10px;
+  background: #fef2f2;
+  color: #7f1d1d;
+  font-size: .88rem;
+  border: 1px solid #fecaca;
+}
+.nao-aceitas h2 { color: #9a3412; }

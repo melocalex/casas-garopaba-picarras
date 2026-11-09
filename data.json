@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-09T18:45:00-03:00",
+  "atualizado_em": "2026-11-09T18:50:00-03:00",
   "fuso": "America/Sao_Paulo",
   "casas": [
     {
@@ -62,7 +62,8 @@
         "images/pic-loc010/11.jpg",
         "images/pic-loc010/12.jpg"
       ],
-      "mobilia": "semimobiliada"
+      "mobilia": "semimobiliada",
+      "motivo_nao_aceita": null
     },
     {
       "id": "pic-loc061",
@@ -124,7 +125,8 @@
         "images/pic-loc061/11.jpg",
         "images/pic-loc061/12.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "pic-cli292",
@@ -175,7 +177,8 @@
       "photos": [
         "images/pic-cli292/01.jpg"
       ],
-      "mobilia": "semimobiliada"
+      "mobilia": "semimobiliada",
+      "motivo_nao_aceita": null
     },
     {
       "id": "pic-loc055",
@@ -235,7 +238,8 @@
         "images/pic-loc055/11.jpg",
         "images/pic-loc055/12.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "pic-maravista",
@@ -297,7 +301,8 @@
         "images/pic-maravista/11.jpg",
         "images/pic-maravista/12.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "pic-dez2500",
@@ -359,7 +364,8 @@
         "images/pic-dez2500/11.jpg",
         "images/pic-dez2500/12.jpg"
       ],
-      "mobilia": "semimobiliada"
+      "mobilia": "semimobiliada",
+      "motivo_nao_aceita": null
     },
     {
       "id": "pic-ca0113",
@@ -420,7 +426,8 @@
         "images/pic-ca0113/11.jpg",
         "images/pic-ca0113/12.jpg"
       ],
-      "mobilia": "semimobiliada"
+      "mobilia": "semimobiliada",
+      "motivo_nao_aceita": null
     },
     {
       "id": "pic-ca0052",
@@ -480,7 +487,8 @@
         "images/pic-ca0052/11.jpg",
         "images/pic-ca0052/12.jpg"
       ],
-      "mobilia": "não informado"
+      "mobilia": "não informado",
+      "motivo_nao_aceita": null
     },
     {
       "id": "pic-ca0110",
@@ -539,7 +547,8 @@
         "images/pic-ca0110/11.jpg",
         "images/pic-ca0110/12.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "gar-centro",
@@ -600,7 +609,8 @@
         "images/gar-centro/11.jpg",
         "images/gar-centro/12.jpg"
       ],
-      "mobilia": "sem móveis"
+      "mobilia": "sem móveis",
+      "motivo_nao_aceita": null
     },
     {
       "id": "gar-ambrosio",
@@ -660,7 +670,8 @@
         "images/gar-ambrosio/11.jpg",
         "images/gar-ambrosio/12.jpg"
       ],
-      "mobilia": "semimobiliada"
+      "mobilia": "semimobiliada",
+      "motivo_nao_aceita": null
     },
     {
       "id": "gar-franco",
@@ -722,7 +733,8 @@
         "images/gar-franco/11.jpg",
         "images/gar-franco/12.jpg"
       ],
-      "mobilia": "semimobiliada"
+      "mobilia": "semimobiliada",
+      "motivo_nao_aceita": null
     },
     {
       "id": "gar-ferrugem",
@@ -783,7 +795,8 @@
         "images/gar-ferrugem/11.jpg",
         "images/gar-ferrugem/12.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "gar-encantada",
@@ -837,7 +850,8 @@
         "images/gar-encantada/04.jpg",
         "images/gar-encantada/05.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "gar-villa",
@@ -894,7 +908,8 @@
         "images/gar-villa/08.jpg",
         "images/gar-villa/09.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "gar-alexia",
@@ -943,7 +958,8 @@
         "images/gar-alexia/01.jpg",
         "images/gar-alexia/02.jpg"
       ],
-      "mobilia": "não informado"
+      "mobilia": "não informado",
+      "motivo_nao_aceita": null
     },
     {
       "id": "gar-olx-ferrugem",
@@ -1005,7 +1021,8 @@
         "images/gar-olx-ferrugem/11.jpg",
         "images/gar-olx-ferrugem/12.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "gar-olx-centro",
@@ -1066,7 +1083,8 @@
         "images/gar-olx-centro/11.jpg",
         "images/gar-olx-centro/12.jpg"
       ],
-      "mobilia": "semimobiliada"
+      "mobilia": "semimobiliada",
+      "motivo_nao_aceita": null
     },
     {
       "id": "gar-olx-macacu",
@@ -1129,7 +1147,8 @@
         "images/gar-olx-macacu/11.jpg",
         "images/gar-olx-macacu/12.jpg"
       ],
-      "mobilia": "sem móveis"
+      "mobilia": "sem móveis",
+      "motivo_nao_aceita": null
     },
     {
       "id": "gar-olx-palhocinha",
@@ -1191,7 +1210,8 @@
         "images/gar-olx-palhocinha/11.jpg",
         "images/gar-olx-palhocinha/12.jpg"
       ],
-      "mobilia": "mobiliada (pelas fotos, confirmar)"
+      "mobilia": "mobiliada (pelas fotos, confirmar)",
+      "motivo_nao_aceita": "parece mobiliada pelas fotos — perguntar se aluga sem móveis"
     },
     {
       "id": "gar-olx-campoduna",
@@ -1249,7 +1269,8 @@
         "images/gar-olx-campoduna/08.jpg",
         "images/gar-olx-campoduna/09.jpg"
       ],
-      "mobilia": "semimobiliada"
+      "mobilia": "semimobiliada",
+      "motivo_nao_aceita": null
     },
     {
       "id": "pic-olx-1528599147",
@@ -1313,7 +1334,8 @@
         "images/pic-olx-1528599147/11.jpg",
         "images/pic-olx-1528599147/12.jpg"
       ],
-      "mobilia": "não informado"
+      "mobilia": "não informado",
+      "motivo_nao_aceita": null
     },
     {
       "id": "pic-olx-1549290862",
@@ -1375,7 +1397,8 @@
         "images/pic-olx-1549290862/11.jpg",
         "images/pic-olx-1549290862/12.jpg"
       ],
-      "mobilia": "sem móveis"
+      "mobilia": "sem móveis",
+      "motivo_nao_aceita": null
     },
     {
       "id": "pic-olx-1541525867",
@@ -1438,7 +1461,8 @@
         "images/pic-olx-1541525867/11.jpg",
         "images/pic-olx-1541525867/12.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "pic-olx-1550301029",
@@ -1501,7 +1525,8 @@
         "images/pic-olx-1550301029/11.jpg",
         "images/pic-olx-1550301029/12.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "pic-olx-1547577411",
@@ -1553,7 +1578,8 @@
       "photos": [
         "images/pic-olx-1547577411/01.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "anúncio removido; era mobiliada (segundo o anúncio)"
     },
     {
       "id": "pdl-lili-49188",
@@ -1613,7 +1639,8 @@
         "images/pdl-lili-49188/11.jpg",
         "images/pdl-lili-49188/12.jpg"
       ],
-      "mobilia": "sem móveis"
+      "mobilia": "sem móveis",
+      "motivo_nao_aceita": null
     },
     {
       "id": "pdl-viamares-1200",
@@ -1673,7 +1700,8 @@
         "images/pdl-viamares-1200/11.jpg",
         "images/pdl-viamares-1200/12.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "pdl-grajau-1900",
@@ -1732,7 +1760,8 @@
         "images/pdl-grajau-1900/11.jpg",
         "images/pdl-grajau-1900/12.jpg"
       ],
-      "mobilia": "sem móveis"
+      "mobilia": "sem móveis",
+      "motivo_nao_aceita": null
     },
     {
       "id": "pdl-olx-1541676469",
@@ -1792,7 +1821,8 @@
         "images/pdl-olx-1541676469/11.jpg",
         "images/pdl-olx-1541676469/12.jpg"
       ],
-      "mobilia": "mobiliada (pelas fotos, confirmar)"
+      "mobilia": "mobiliada (pelas fotos, confirmar)",
+      "motivo_nao_aceita": "parece mobiliada pelas fotos — perguntar se aluga sem móveis"
     },
     {
       "id": "pdl-olx-1539913297",
@@ -1840,7 +1870,8 @@
         "images/pdl-olx-1539913297/01.jpg",
         "images/pdl-olx-1539913297/02.jpg"
       ],
-      "mobilia": "não informado"
+      "mobilia": "não informado",
+      "motivo_nao_aceita": null
     },
     {
       "id": "ita-lopes-reo639909",
@@ -1899,7 +1930,8 @@
         "images/ita-lopes-reo639909/11.jpg",
         "images/ita-lopes-reo639909/12.jpg"
       ],
-      "mobilia": "sem móveis"
+      "mobilia": "sem móveis",
+      "motivo_nao_aceita": null
     },
     {
       "id": "ita-buskaza-2600",
@@ -1960,7 +1992,8 @@
         "images/ita-buskaza-2600/11.jpg",
         "images/ita-buskaza-2600/12.jpg"
       ],
-      "mobilia": "sem móveis"
+      "mobilia": "sem móveis",
+      "motivo_nao_aceita": null
     },
     {
       "id": "ita-sonhar-cacentro02",
@@ -2020,7 +2053,8 @@
         "images/ita-sonhar-cacentro02/11.jpg",
         "images/ita-sonhar-cacentro02/12.jpg"
       ],
-      "mobilia": "sem móveis"
+      "mobilia": "sem móveis",
+      "motivo_nao_aceita": null
     },
     {
       "id": "ita-sperandio-3000",
@@ -2079,7 +2113,8 @@
         "images/ita-sperandio-3000/11.jpg",
         "images/ita-sperandio-3000/12.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "ita-olx-1550041340",
@@ -2141,7 +2176,8 @@
         "images/ita-olx-1550041340/11.jpg",
         "images/ita-olx-1550041340/12.jpg"
       ],
-      "mobilia": "mobiliada"
+      "mobilia": "mobiliada",
+      "motivo_nao_aceita": "mobiliada (segundo o anúncio)"
     },
     {
       "id": "ita-olx-1542275842",
@@ -2203,7 +2239,8 @@
         "images/ita-olx-1542275842/12.jpg"
       ],
       "url_alt": "https://www.sonharimoveisitapoa.com.br/imovel/4397328/casa-locacao",
-      "mobilia": "sem móveis"
+      "mobilia": "sem móveis",
+      "motivo_nao_aceita": null
     },
     {
       "id": "ita-olx-1549587952",
@@ -2255,7 +2292,8 @@
         "images/ita-olx-1549587952/03.jpg",
         "images/ita-olx-1549587952/04.jpg"
       ],
-      "mobilia": "não informado"
+      "mobilia": "não informado",
+      "motivo_nao_aceita": null
     },
     {
       "id": "ita-olx-1547884546",
@@ -2308,7 +2346,8 @@
         "images/ita-olx-1547884546/07.jpg",
         "images/ita-olx-1547884546/08.jpg"
       ],
-      "mobilia": "sem móveis"
+      "mobilia": "sem móveis",
+      "motivo_nao_aceita": null
     },
     {
       "id": "ita-olx-1544812873",
@@ -2362,7 +2401,8 @@
         "images/ita-olx-1544812873/06.jpg",
         "images/ita-olx-1544812873/07.jpg"
       ],
-      "mobilia": "não informado"
+      "mobilia": "não informado",
+      "motivo_nao_aceita": null
     },
     {
       "id": "ita-sonhar-imperador",
@@ -2421,7 +2461,8 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "mobilia": "não informado"
+      "mobilia": "não informado",
+      "motivo_nao_aceita": null
     }
   ],
   "cidades": [

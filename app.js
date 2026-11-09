@@ -244,16 +244,24 @@ function thumbHtml(c) {
 }
 
 function rankRow(c, pos, opts={}) {
-  const sumiu = c.status === "sumiu";
-  const muted = (c.veredito === "pular" || sumiu) ? " muted" : "";
+  const sumiu = c.status === "sumiu" || c.status === "alugado";
+  const descartada = c.status === "descartada_mobiliada";
+  const muted = (c.veredito === "pular" || sumiu || descartada) ? " muted" : "";
   const dist = c.distancia_mar ? c.distancia_mar : "não informada";
   const razao = c.razao || (c.analise || "").split(/(?<=[.!?])\s+/)[0] || c.titulo;
   const marked = getEscolha(c.id);
   const markClass = marked === "sim" ? " marked-sim" : marked === "nao" ? " marked-nao" : "";
   const sumiuClass = sumiu ? " sumiu" : "";
-  const badge = sumiu ? `<span class="badge pular">sumiu</span>` : `<span class="badge ${c.veredito}">${c.veredito}</span>`;
+  const badge = sumiu
+    ? `<span class="badge pular">sumiu</span>`
+    : `<span class="badge ${c.veredito}">${c.veredito}</span>`;
+  const motivo = c.motivo_nao_aceita
+    ? `<div class="rank-motivo"><strong>Motivo:</strong> ${c.motivo_nao_aceita}</div>`
+    : "";
+  const showMotivo = opts.showMotivo || descartada || sumiu;
+  const posLabel = (sumiu || descartada || !pos) ? "—" : "#"+pos;
   return `<article class="rank-row${muted}${markClass}${sumiuClass}" data-house-id="${c.id}">
-    <div class="rank-pos">${sumiu ? "—" : "#"+pos}</div>
+    <div class="rank-pos">${posLabel}</div>
     <div class="rank-score"><strong>${c.nota_qualidade}</strong><span>/10</span></div>
     ${thumbHtml(c)}
     <div class="rank-main">
@@ -265,7 +273,8 @@ function rankRow(c, pos, opts={}) {
       <div class="rank-title">${c.titulo}</div>
       <div class="rank-meta">${money(c.total_estimado)} · ${val(c.quartos)} q · 🌊 ${dist}${housePhotos(c).length ? ` · ${housePhotos(c).length} fotos` : ""}</div>
       <div class="rank-reason">${razao}</div>
-      ${sumiu ? "" : escolhaButtons(c.id)}
+      ${showMotivo ? motivo : ""}
+      ${escolhaButtons(c.id)}
     </div>
     <div class="rank-actions">
       <a href="${c.url}" target="_blank" rel="noopener">Anúncio</a>
@@ -340,14 +349,18 @@ function render() {
   const rankingEl = document.getElementById("ranking");
   const gridEl = document.getElementById("grid");
   const saidas = casas.filter(c => c.status === "sumiu" || c.status === "alugado");
-  const mobDiscard = casas.filter(c => c.status === "descartada_mobiliada" || isMobiliada(c));
-  // avoid dup if already in filtered list when showing mob
-  const showMobSection = document.getElementById("mobiliaFilter").value === "ok" || document.getElementById("mobiliaFilter").value === "semi" || document.getElementById("mobiliaFilter").value === "vazia" || document.getElementById("mobiliaFilter").value === "ni";
-  const saidasHtml = (saidas.length
-    ? `<section class="sairam"><h2>Saíram / removidos</h2>${saidas.map(c => rankRow(c, 0)).join("")}</section>`
-    : "") + (showMobSection && mobDiscard.length
-    ? `<section class="sairam descartadas-mob"><h2>Descartadas: mobiliadas</h2><p class="note">Fora do ranking ativo — Alex já tem os móveis. Semi-mobiliada continua no ranking.</p>${mobDiscard.map(c => rankRow(c, 0)).join("")}</section>`
-    : "");
+  const naoAceitas = casas
+    .filter(c => c.status === "descartada_mobiliada" || (c.motivo_nao_aceita && c.status !== "sumiu" && c.status !== "alugado" && isMobiliada(c)))
+    .sort((a,b) => (b.nota_qualidade||0) - (a.nota_qualidade||0));
+  // Always show Não aceitas below ranking (independent of Mobília filter).
+  // Saíram stays separate; removed furnished ads appear only there.
+  const saidasHtml =
+    (naoAceitas.length
+      ? `<section class="sairam nao-aceitas" id="naoAceitas"><h2>Não aceitas (motivo abaixo)</h2><p class="note">Fora do ranking ativo, mas ainda dá para marcar Sim/Não se alguma interessar (ex.: perguntar se aluga sem móveis).</p>${naoAceitas.map(c => rankRow(c, 0, {showMotivo:true})).join("")}</section>`
+      : "") +
+    (saidas.length
+      ? `<section class="sairam"><h2>Saíram / removidos</h2>${saidas.map(c => rankRow(c, 0, {showMotivo:true})).join("")}</section>`
+      : "");
   if (view === "ranking") {
     rankingEl.hidden = false;
     gridEl.hidden = true;
