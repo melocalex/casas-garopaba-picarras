@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-09T17:00:00-03:00",
+  "atualizado_em": "2026-11-09T18:05:00-03:00",
   "fuso": "America/Sao_Paulo",
   "casas": [
     {
@@ -47,7 +47,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": "750 m da praia (anúncio)",
       "distancia_mar_metros": 750,
-      "razao": "Casa térrea moderna e limpa, sem sinais de mofo nas fotos."
+      "razao": "Casa térrea moderna e limpa, sem sinais de mofo nas fotos.",
+      "photos": [
+        "images/pic-loc010/01.jpg",
+        "images/pic-loc010/02.jpg",
+        "images/pic-loc010/03.jpg",
+        "images/pic-loc010/04.jpg",
+        "images/pic-loc010/05.jpg",
+        "images/pic-loc010/06.jpg",
+        "images/pic-loc010/07.jpg",
+        "images/pic-loc010/08.jpg",
+        "images/pic-loc010/09.jpg",
+        "images/pic-loc010/10.jpg",
+        "images/pic-loc010/11.jpg",
+        "images/pic-loc010/12.jpg"
+      ]
     },
     {
       "id": "pic-loc061",
@@ -94,7 +108,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": "450 m da praia (anúncio)",
       "distancia_mar_metros": 450,
-      "razao": "Sobrado geminado limpo e pronto para morar."
+      "razao": "Sobrado geminado limpo e pronto para morar.",
+      "photos": [
+        "images/pic-loc061/01.jpg",
+        "images/pic-loc061/02.jpg",
+        "images/pic-loc061/03.jpg",
+        "images/pic-loc061/04.jpg",
+        "images/pic-loc061/05.jpg",
+        "images/pic-loc061/06.jpg",
+        "images/pic-loc061/07.jpg",
+        "images/pic-loc061/08.jpg",
+        "images/pic-loc061/09.jpg",
+        "images/pic-loc061/10.jpg",
+        "images/pic-loc061/11.jpg",
+        "images/pic-loc061/12.jpg"
+      ]
     },
     {
       "id": "pic-cli292",
@@ -141,7 +169,10 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Casa moderna bem cuidada, sem mofo aparente."
+      "razao": "Casa moderna bem cuidada, sem mofo aparente.",
+      "photos": [
+        "images/pic-cli292/01.jpg"
+      ]
     },
     {
       "id": "pic-loc055",
@@ -186,7 +217,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Opção econômica funcional."
+      "razao": "Opção econômica funcional.",
+      "photos": [
+        "images/pic-loc055/01.jpg",
+        "images/pic-loc055/02.jpg",
+        "images/pic-loc055/03.jpg",
+        "images/pic-loc055/04.jpg",
+        "images/pic-loc055/05.jpg",
+        "images/pic-loc055/06.jpg",
+        "images/pic-loc055/07.jpg",
+        "images/pic-loc055/08.jpg",
+        "images/pic-loc055/09.jpg",
+        "images/pic-loc055/10.jpg",
+        "images/pic-loc055/11.jpg",
+        "images/pic-loc055/12.jpg"
+      ]
     },
     {
       "id": "pic-maravista",
@@ -233,7 +278,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": "700 m do mar (anúncio)",
       "distancia_mar_metros": 700,
-      "razao": "Melhor acabamento da lista Piçarras, mas IPTU+taxas provavelmente estouram R$3.500."
+      "razao": "Melhor acabamento da lista Piçarras, mas IPTU+taxas provavelmente estouram R$3.500.",
+      "photos": [
+        "images/pic-maravista/01.jpg",
+        "images/pic-maravista/02.jpg",
+        "images/pic-maravista/03.jpg",
+        "images/pic-maravista/04.jpg",
+        "images/pic-maravista/05.jpg",
+        "images/pic-maravista/06.jpg",
+        "images/pic-maravista/07.jpg",
+        "images/pic-maravista/08.jpg",
+        "images/pic-maravista/09.jpg",
+        "images/pic-maravista/10.jpg",
+        "images/pic-maravista/11.jpg",
+        "images/pic-maravista/12.jpg"
+      ]
     },
     {
       "id": "pic-dez2500",
@@ -280,7 +339,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Sobrado renovado com bom acabamento nas fotos."
+      "razao": "Sobrado renovado com bom acabamento nas fotos.",
+      "photos": [
+        "images/pic-dez2500/01.jpg",
+        "images/pic-dez2500/02.jpg",
+        "images/pic-dez2500/03.jpg",
+        "images/pic-dez2500/04.jpg",
+        "images/pic-dez2500/05.jpg",
+        "images/pic-dez2500/06.jpg",
+        "images/pic-dez2500/07.jpg",
+        "images/pic-dez2500/08.jpg",
+        "images/pic-dez2500/09.jpg",
+        "images/pic-dez2500/10.jpg",
+        "images/pic-dez2500/11.jpg",
+        "images/pic-dez2500/12.jpg"
+      ]
     },
     {
       "id": "pic-ca0113",
@@ -326,7 +399,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Casa pequena e limpa em condomínio."
+      "razao": "Casa pequena e limpa em condomínio.",
+      "photos": [
+        "images/pic-ca0113/01.jpg",
+        "images/pic-ca0113/02.jpg",
+        "images/pic-ca0113/03.jpg",
+        "images/pic-ca0113/04.jpg",
+        "images/pic-ca0113/05.jpg",
+        "images/pic-ca0113/06.jpg",
+        "images/pic-ca0113/07.jpg",
+        "images/pic-ca0113/08.jpg",
+        "images/pic-ca0113/09.jpg",
+        "images/pic-ca0113/10.jpg",
+        "images/pic-ca0113/11.jpg",
+        "images/pic-ca0113/12.jpg"
+      ]
     },
     {
       "id": "pic-ca0052",
@@ -371,7 +458,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Anúncio com fotos ilustrativas e pouca evidência de contrato anual."
+      "razao": "Anúncio com fotos ilustrativas e pouca evidência de contrato anual.",
+      "photos": [
+        "images/pic-ca0052/01.jpg",
+        "images/pic-ca0052/02.jpg",
+        "images/pic-ca0052/03.jpg",
+        "images/pic-ca0052/04.jpg",
+        "images/pic-ca0052/05.jpg",
+        "images/pic-ca0052/06.jpg",
+        "images/pic-ca0052/07.jpg",
+        "images/pic-ca0052/08.jpg",
+        "images/pic-ca0052/09.jpg",
+        "images/pic-ca0052/10.jpg",
+        "images/pic-ca0052/11.jpg",
+        "images/pic-ca0052/12.jpg"
+      ]
     },
     {
       "id": "pic-ca0110",
@@ -415,7 +516,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Quintal atrativo, mas fotos mostram umidade ascendente forte no corredor externo — risco alto para família."
+      "razao": "Quintal atrativo, mas fotos mostram umidade ascendente forte no corredor externo — risco alto para família.",
+      "photos": [
+        "images/pic-ca0110/01.jpg",
+        "images/pic-ca0110/02.jpg",
+        "images/pic-ca0110/03.jpg",
+        "images/pic-ca0110/04.jpg",
+        "images/pic-ca0110/05.jpg",
+        "images/pic-ca0110/06.jpg",
+        "images/pic-ca0110/07.jpg",
+        "images/pic-ca0110/08.jpg",
+        "images/pic-ca0110/09.jpg",
+        "images/pic-ca0110/10.jpg",
+        "images/pic-ca0110/11.jpg",
+        "images/pic-ca0110/12.jpg"
+      ]
     },
     {
       "id": "gar-centro",
@@ -461,7 +576,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Boa opção para viver no centro de Garopaba o ano todo."
+      "razao": "Boa opção para viver no centro de Garopaba o ano todo.",
+      "photos": [
+        "images/gar-centro/01.jpg",
+        "images/gar-centro/02.jpg",
+        "images/gar-centro/03.jpg",
+        "images/gar-centro/04.jpg",
+        "images/gar-centro/05.jpg",
+        "images/gar-centro/06.jpg",
+        "images/gar-centro/07.jpg",
+        "images/gar-centro/08.jpg",
+        "images/gar-centro/09.jpg",
+        "images/gar-centro/10.jpg",
+        "images/gar-centro/11.jpg",
+        "images/gar-centro/12.jpg"
+      ]
     },
     {
       "id": "gar-ambrosio",
@@ -506,7 +635,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Casa com bom pátio fechado e IPTU incluso."
+      "razao": "Casa com bom pátio fechado e IPTU incluso.",
+      "photos": [
+        "images/gar-ambrosio/01.jpg",
+        "images/gar-ambrosio/02.jpg",
+        "images/gar-ambrosio/03.jpg",
+        "images/gar-ambrosio/04.jpg",
+        "images/gar-ambrosio/05.jpg",
+        "images/gar-ambrosio/06.jpg",
+        "images/gar-ambrosio/07.jpg",
+        "images/gar-ambrosio/08.jpg",
+        "images/gar-ambrosio/09.jpg",
+        "images/gar-ambrosio/10.jpg",
+        "images/gar-ambrosio/11.jpg",
+        "images/gar-ambrosio/12.jpg"
+      ]
     },
     {
       "id": "gar-franco",
@@ -553,7 +696,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Melhor custo efetivo em Garopaba: R$2.550 com água/luz/IPTU."
+      "razao": "Melhor custo efetivo em Garopaba: R$2.550 com água/luz/IPTU.",
+      "photos": [
+        "images/gar-franco/01.jpg",
+        "images/gar-franco/02.jpg",
+        "images/gar-franco/03.jpg",
+        "images/gar-franco/04.jpg",
+        "images/gar-franco/05.jpg",
+        "images/gar-franco/06.jpg",
+        "images/gar-franco/07.jpg",
+        "images/gar-franco/08.jpg",
+        "images/gar-franco/09.jpg",
+        "images/gar-franco/10.jpg",
+        "images/gar-franco/11.jpg",
+        "images/gar-franco/12.jpg"
+      ]
     },
     {
       "id": "gar-ferrugem",
@@ -599,7 +756,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": "menos de 20 m do mar (anúncio)",
       "distancia_mar_metros": 20,
-      "razao": "Única casa Garopaba com distância de praia tão curta declarada."
+      "razao": "Única casa Garopaba com distância de praia tão curta declarada.",
+      "photos": [
+        "images/gar-ferrugem/01.jpg",
+        "images/gar-ferrugem/02.jpg",
+        "images/gar-ferrugem/03.jpg",
+        "images/gar-ferrugem/04.jpg",
+        "images/gar-ferrugem/05.jpg",
+        "images/gar-ferrugem/06.jpg",
+        "images/gar-ferrugem/07.jpg",
+        "images/gar-ferrugem/08.jpg",
+        "images/gar-ferrugem/09.jpg",
+        "images/gar-ferrugem/10.jpg",
+        "images/gar-ferrugem/11.jpg",
+        "images/gar-ferrugem/12.jpg"
+      ]
     },
     {
       "id": "gar-encantada",
@@ -645,7 +816,14 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Casa no segundo piso sobre comércio na SC-434."
+      "razao": "Casa no segundo piso sobre comércio na SC-434.",
+      "photos": [
+        "images/gar-encantada/01.jpg",
+        "images/gar-encantada/02.jpg",
+        "images/gar-encantada/03.jpg",
+        "images/gar-encantada/04.jpg",
+        "images/gar-encantada/05.jpg"
+      ]
     },
     {
       "id": "gar-villa",
@@ -684,13 +862,24 @@
         "longe da praia"
       ],
       "analise": "Barata e anual no papel, mas evidência visual fraca. Só avançar após ver fotos reais ou visita.",
-      "foto": "",
+      "foto": "images/gar-villa.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Barata e anual no papel, mas evidência visual fraca."
+      "razao": "Barata e anual no papel, mas evidência visual fraca.",
+      "photos": [
+        "images/gar-villa/01.jpg",
+        "images/gar-villa/02.jpg",
+        "images/gar-villa/03.jpg",
+        "images/gar-villa/04.jpg",
+        "images/gar-villa/05.jpg",
+        "images/gar-villa/06.jpg",
+        "images/gar-villa/07.jpg",
+        "images/gar-villa/08.jpg",
+        "images/gar-villa/09.jpg"
+      ]
     },
     {
       "id": "gar-alexia",
@@ -728,13 +917,17 @@
         "só 'casa para 5 pessoas'"
       ],
       "analise": "Anúncio incompleto na página de locações. Precisa esclarecer layout antes de visita.",
-      "foto": "",
+      "foto": "images/gar-alexia.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": "500 m da praia do centro (anúncio)",
       "distancia_mar_metros": 500,
-      "razao": "Anúncio incompleto na página de locações."
+      "razao": "Anúncio incompleto na página de locações.",
+      "photos": [
+        "images/gar-alexia/01.jpg",
+        "images/gar-alexia/02.jpg"
+      ]
     },
     {
       "id": "gar-olx-ferrugem",
@@ -781,7 +974,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": "150 m / pé na areia (anúncio)",
       "distancia_mar_metros": 150,
-      "razao": "Sobrado entre palmeiras com localização forte."
+      "razao": "Sobrado entre palmeiras com localização forte.",
+      "photos": [
+        "images/gar-olx-ferrugem/01.jpg",
+        "images/gar-olx-ferrugem/02.jpg",
+        "images/gar-olx-ferrugem/03.jpg",
+        "images/gar-olx-ferrugem/04.jpg",
+        "images/gar-olx-ferrugem/05.jpg",
+        "images/gar-olx-ferrugem/06.jpg",
+        "images/gar-olx-ferrugem/07.jpg",
+        "images/gar-olx-ferrugem/08.jpg",
+        "images/gar-olx-ferrugem/09.jpg",
+        "images/gar-olx-ferrugem/10.jpg",
+        "images/gar-olx-ferrugem/11.jpg",
+        "images/gar-olx-ferrugem/12.jpg"
+      ]
     },
     {
       "id": "gar-olx-centro",
@@ -827,7 +1034,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Sobrado limpo e funcional no Centro, sem área externa."
+      "razao": "Sobrado limpo e funcional no Centro, sem área externa.",
+      "photos": [
+        "images/gar-olx-centro/01.jpg",
+        "images/gar-olx-centro/02.jpg",
+        "images/gar-olx-centro/03.jpg",
+        "images/gar-olx-centro/04.jpg",
+        "images/gar-olx-centro/05.jpg",
+        "images/gar-olx-centro/06.jpg",
+        "images/gar-olx-centro/07.jpg",
+        "images/gar-olx-centro/08.jpg",
+        "images/gar-olx-centro/09.jpg",
+        "images/gar-olx-centro/10.jpg",
+        "images/gar-olx-centro/11.jpg",
+        "images/gar-olx-centro/12.jpg"
+      ]
     },
     {
       "id": "gar-olx-macacu",
@@ -875,7 +1096,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": "bem pertinho da praia (anúncio, sem metros)",
       "distancia_mar_metros": null,
-      "razao": "Excelente área externa murada."
+      "razao": "Excelente área externa murada.",
+      "photos": [
+        "images/gar-olx-macacu/01.jpg",
+        "images/gar-olx-macacu/02.jpg",
+        "images/gar-olx-macacu/03.jpg",
+        "images/gar-olx-macacu/04.jpg",
+        "images/gar-olx-macacu/05.jpg",
+        "images/gar-olx-macacu/06.jpg",
+        "images/gar-olx-macacu/07.jpg",
+        "images/gar-olx-macacu/08.jpg",
+        "images/gar-olx-macacu/09.jpg",
+        "images/gar-olx-macacu/10.jpg",
+        "images/gar-olx-macacu/11.jpg",
+        "images/gar-olx-macacu/12.jpg"
+      ]
     },
     {
       "id": "gar-olx-palhocinha",
@@ -922,7 +1157,21 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Casa clara e moderna com gramado pequeno cercado."
+      "razao": "Casa clara e moderna com gramado pequeno cercado.",
+      "photos": [
+        "images/gar-olx-palhocinha/01.jpg",
+        "images/gar-olx-palhocinha/02.jpg",
+        "images/gar-olx-palhocinha/03.jpg",
+        "images/gar-olx-palhocinha/04.jpg",
+        "images/gar-olx-palhocinha/05.jpg",
+        "images/gar-olx-palhocinha/06.jpg",
+        "images/gar-olx-palhocinha/07.jpg",
+        "images/gar-olx-palhocinha/08.jpg",
+        "images/gar-olx-palhocinha/09.jpg",
+        "images/gar-olx-palhocinha/10.jpg",
+        "images/gar-olx-palhocinha/11.jpg",
+        "images/gar-olx-palhocinha/12.jpg"
+      ]
     },
     {
       "id": "gar-olx-campoduna",
@@ -968,7 +1217,18 @@
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Bangalô econômico com quintal."
+      "razao": "Bangalô econômico com quintal.",
+      "photos": [
+        "images/gar-olx-campoduna/01.jpg",
+        "images/gar-olx-campoduna/02.jpg",
+        "images/gar-olx-campoduna/03.jpg",
+        "images/gar-olx-campoduna/04.jpg",
+        "images/gar-olx-campoduna/05.jpg",
+        "images/gar-olx-campoduna/06.jpg",
+        "images/gar-olx-campoduna/07.jpg",
+        "images/gar-olx-campoduna/08.jpg",
+        "images/gar-olx-campoduna/09.jpg"
+      ]
     },
     {
       "id": "pic-olx-1528599147",
@@ -1011,13 +1271,27 @@
         "prédios vizinhos"
       ],
       "analise": "Casa térrea com grande pátio de brita murado. Acabamento simples e cômodos vazios. Há abertura escura/painel de forro faltando e mancha na parede — checar vazamento/umidade na visita.",
-      "foto": "images/pic-olx-terreno.jpg",
+      "foto": "images/pic-olx-1528599147.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Casa térrea com grande pátio de brita murado."
+      "razao": "Casa térrea com grande pátio de brita murado.",
+      "photos": [
+        "images/pic-olx-1528599147/01.jpg",
+        "images/pic-olx-1528599147/02.jpg",
+        "images/pic-olx-1528599147/03.jpg",
+        "images/pic-olx-1528599147/04.jpg",
+        "images/pic-olx-1528599147/05.jpg",
+        "images/pic-olx-1528599147/06.jpg",
+        "images/pic-olx-1528599147/07.jpg",
+        "images/pic-olx-1528599147/08.jpg",
+        "images/pic-olx-1528599147/09.jpg",
+        "images/pic-olx-1528599147/10.jpg",
+        "images/pic-olx-1528599147/11.jpg",
+        "images/pic-olx-1528599147/12.jpg"
+      ]
     },
     {
       "id": "pic-olx-1549290862",
@@ -1058,13 +1332,27 @@
         "abertura de cabo inacabada na parede"
       ],
       "analise": "Casa nova e limpa, boa luz natural. Pouco espaço externo útil (só corredores de brita). Confirmar acabamentos finais e se a abertura de cabo será fechada.",
-      "foto": "images/pic-olx-nova.jpg",
+      "foto": "images/pic-olx-1549290862.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Casa nova e limpa, boa luz natural."
+      "razao": "Casa nova e limpa, boa luz natural.",
+      "photos": [
+        "images/pic-olx-1549290862/01.jpg",
+        "images/pic-olx-1549290862/02.jpg",
+        "images/pic-olx-1549290862/03.jpg",
+        "images/pic-olx-1549290862/04.jpg",
+        "images/pic-olx-1549290862/05.jpg",
+        "images/pic-olx-1549290862/06.jpg",
+        "images/pic-olx-1549290862/07.jpg",
+        "images/pic-olx-1549290862/08.jpg",
+        "images/pic-olx-1549290862/09.jpg",
+        "images/pic-olx-1549290862/10.jpg",
+        "images/pic-olx-1549290862/11.jpg",
+        "images/pic-olx-1549290862/12.jpg"
+      ]
     },
     {
       "id": "pic-olx-1541525867",
@@ -1106,13 +1394,27 @@
         "escada"
       ],
       "analise": "Boa casa mobiliada, mas o seguro-fiança listado estoura o orçamento de R$3.500. Só faz sentido se negociar outra garantia (caução/fiador) sem essa parcela mensal.",
-      "foto": "images/pic-olx-mobiliada.jpg",
+      "foto": "images/pic-olx-1541525867.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": "1.000 m da praia (anúncio)",
       "distancia_mar_metros": 1000,
-      "razao": "Boa casa mobiliada, mas o seguro-fiança listado estoura o orçamento de R$3.500."
+      "razao": "Boa casa mobiliada, mas o seguro-fiança listado estoura o orçamento de R$3.500.",
+      "photos": [
+        "images/pic-olx-1541525867/01.jpg",
+        "images/pic-olx-1541525867/02.jpg",
+        "images/pic-olx-1541525867/03.jpg",
+        "images/pic-olx-1541525867/04.jpg",
+        "images/pic-olx-1541525867/05.jpg",
+        "images/pic-olx-1541525867/06.jpg",
+        "images/pic-olx-1541525867/07.jpg",
+        "images/pic-olx-1541525867/08.jpg",
+        "images/pic-olx-1541525867/09.jpg",
+        "images/pic-olx-1541525867/10.jpg",
+        "images/pic-olx-1541525867/11.jpg",
+        "images/pic-olx-1541525867/12.jpg"
+      ]
     },
     {
       "id": "pic-olx-1550301029",
@@ -1154,13 +1456,27 @@
         "IPTU alto"
       ],
       "analise": "Ótimo quintal arborizado perto da praia. Piscina sem proteção aparente exige atenção de segurança. Confirmar se o contrato é anual sem saída no verão e se aceita pet.",
-      "foto": "images/pic-olx-centro-pool.jpg",
+      "foto": "images/pic-olx-1550301029.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": "200 m da praia (anúncio)",
       "distancia_mar_metros": 200,
-      "razao": "Ótimo quintal arborizado perto da praia."
+      "razao": "Ótimo quintal arborizado perto da praia.",
+      "photos": [
+        "images/pic-olx-1550301029/01.jpg",
+        "images/pic-olx-1550301029/02.jpg",
+        "images/pic-olx-1550301029/03.jpg",
+        "images/pic-olx-1550301029/04.jpg",
+        "images/pic-olx-1550301029/05.jpg",
+        "images/pic-olx-1550301029/06.jpg",
+        "images/pic-olx-1550301029/07.jpg",
+        "images/pic-olx-1550301029/08.jpg",
+        "images/pic-olx-1550301029/09.jpg",
+        "images/pic-olx-1550301029/10.jpg",
+        "images/pic-olx-1550301029/11.jpg",
+        "images/pic-olx-1550301029/12.jpg"
+      ]
     },
     {
       "id": "pic-olx-1547577411",
@@ -1182,12 +1498,12 @@
       "banheiros": 2,
       "area_m2": 90,
       "anual": "não confirmado",
-      "disponibilidade": "",
+      "disponibilidade": "anúncio removido / provavelmente alugada",
       "praia_declarada": null,
       "pets": "",
       "mobiliado": "sim",
       "nota_qualidade": 8.0,
-      "veredito": "visitar",
+      "veredito": "pular",
       "pros": [
         "limpa e clara",
         "bons banheiros",
@@ -1201,14 +1517,17 @@
         "também à venda (risco de venda durante contrato)",
         "pátio de brita"
       ],
-      "analise": "Uma das melhores OLX de Piçarras em custo-benefício visual. Confirmar contrato anual estável e que a venda não force saída antecipada.",
+      "analise": "ANÚNCIO REMOVIDO no OLX (provavelmente alugada). Uma das melhores OLX de Piçarras em custo-benefício visual. Confirmar contrato anual estável e que a venda não force saída antecipada.",
       "foto": "images/pic-olx-itacolomi-24423.jpg",
-      "status": "ativo",
+      "status": "sumiu",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
       "distancia_mar_metros": null,
-      "razao": "Uma das melhores OLX de Piçarras em custo-benefício visual."
+      "razao": "Anúncio removido no OLX — provavelmente alugada.",
+      "photos": [
+        "images/pic-olx-1547577411/01.jpg"
+      ]
     },
     {
       "id": "pdl-lili-49188",
@@ -1253,7 +1572,21 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Duas casas no mesmo lote (frente 2q + fundos 2q) em Praia de Leste por R$2.000."
+      "razao": "Duas casas no mesmo lote (frente 2q + fundos 2q) em Praia de Leste por R$2.000.",
+      "photos": [
+        "images/pdl-lili-49188/01.jpg",
+        "images/pdl-lili-49188/02.jpg",
+        "images/pdl-lili-49188/03.jpg",
+        "images/pdl-lili-49188/04.jpg",
+        "images/pdl-lili-49188/05.jpg",
+        "images/pdl-lili-49188/06.jpg",
+        "images/pdl-lili-49188/07.jpg",
+        "images/pdl-lili-49188/08.jpg",
+        "images/pdl-lili-49188/09.jpg",
+        "images/pdl-lili-49188/10.jpg",
+        "images/pdl-lili-49188/11.jpg",
+        "images/pdl-lili-49188/12.jpg"
+      ]
     },
     {
       "id": "pdl-viamares-1200",
@@ -1298,7 +1631,21 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Casa 2q em Praia de Leste anunciada como locação mensal a R$1.200, a 1000 m da praia."
+      "razao": "Casa 2q em Praia de Leste anunciada como locação mensal a R$1.200, a 1000 m da praia.",
+      "photos": [
+        "images/pdl-viamares-1200/01.jpg",
+        "images/pdl-viamares-1200/02.jpg",
+        "images/pdl-viamares-1200/03.jpg",
+        "images/pdl-viamares-1200/04.jpg",
+        "images/pdl-viamares-1200/05.jpg",
+        "images/pdl-viamares-1200/06.jpg",
+        "images/pdl-viamares-1200/07.jpg",
+        "images/pdl-viamares-1200/08.jpg",
+        "images/pdl-viamares-1200/09.jpg",
+        "images/pdl-viamares-1200/10.jpg",
+        "images/pdl-viamares-1200/11.jpg",
+        "images/pdl-viamares-1200/12.jpg"
+      ]
     },
     {
       "id": "pdl-grajau-1900",
@@ -1342,7 +1689,21 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Casa 2q em Grajaú (vizinho de Praia de Leste) a R$1.900 + IPTU R$50."
+      "razao": "Casa 2q em Grajaú (vizinho de Praia de Leste) a R$1.900 + IPTU R$50.",
+      "photos": [
+        "images/pdl-grajau-1900/01.jpg",
+        "images/pdl-grajau-1900/02.jpg",
+        "images/pdl-grajau-1900/03.jpg",
+        "images/pdl-grajau-1900/04.jpg",
+        "images/pdl-grajau-1900/05.jpg",
+        "images/pdl-grajau-1900/06.jpg",
+        "images/pdl-grajau-1900/07.jpg",
+        "images/pdl-grajau-1900/08.jpg",
+        "images/pdl-grajau-1900/09.jpg",
+        "images/pdl-grajau-1900/10.jpg",
+        "images/pdl-grajau-1900/11.jpg",
+        "images/pdl-grajau-1900/12.jpg"
+      ]
     },
     {
       "id": "pdl-olx-1541676469",
@@ -1387,7 +1748,21 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Sobrado limpo/claro em Shangri-lá, ~300 m do mar."
+      "razao": "Sobrado limpo/claro em Shangri-lá, ~300 m do mar.",
+      "photos": [
+        "images/pdl-olx-1541676469/01.jpg",
+        "images/pdl-olx-1541676469/02.jpg",
+        "images/pdl-olx-1541676469/03.jpg",
+        "images/pdl-olx-1541676469/04.jpg",
+        "images/pdl-olx-1541676469/05.jpg",
+        "images/pdl-olx-1541676469/06.jpg",
+        "images/pdl-olx-1541676469/07.jpg",
+        "images/pdl-olx-1541676469/08.jpg",
+        "images/pdl-olx-1541676469/09.jpg",
+        "images/pdl-olx-1541676469/10.jpg",
+        "images/pdl-olx-1541676469/11.jpg",
+        "images/pdl-olx-1541676469/12.jpg"
+      ]
     },
     {
       "id": "pdl-olx-1539913297",
@@ -1430,7 +1805,11 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Atami/Pontal do Sul, longe do alvo."
+      "razao": "Atami/Pontal do Sul, longe do alvo.",
+      "photos": [
+        "images/pdl-olx-1539913297/01.jpg",
+        "images/pdl-olx-1539913297/02.jpg"
+      ]
     },
     {
       "id": "ita-lopes-reo639909",
@@ -1474,7 +1853,21 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Casa térrea 3q em Itapema do Norte, total ~R$2.672."
+      "razao": "Casa térrea 3q em Itapema do Norte, total ~R$2.672.",
+      "photos": [
+        "images/ita-lopes-reo639909/01.jpg",
+        "images/ita-lopes-reo639909/02.jpg",
+        "images/ita-lopes-reo639909/03.jpg",
+        "images/ita-lopes-reo639909/04.jpg",
+        "images/ita-lopes-reo639909/05.jpg",
+        "images/ita-lopes-reo639909/06.jpg",
+        "images/ita-lopes-reo639909/07.jpg",
+        "images/ita-lopes-reo639909/08.jpg",
+        "images/ita-lopes-reo639909/09.jpg",
+        "images/ita-lopes-reo639909/10.jpg",
+        "images/ita-lopes-reo639909/11.jpg",
+        "images/ita-lopes-reo639909/12.jpg"
+      ]
     },
     {
       "id": "ita-buskaza-2600",
@@ -1520,7 +1913,21 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Melhor evidência de anual em Itapoá (contrato mín. 12 meses); quadra do mar em Brasília (vizinho)."
+      "razao": "Melhor evidência de anual em Itapoá (contrato mín. 12 meses); quadra do mar em Brasília (vizinho).",
+      "photos": [
+        "images/ita-buskaza-2600/01.jpg",
+        "images/ita-buskaza-2600/02.jpg",
+        "images/ita-buskaza-2600/03.jpg",
+        "images/ita-buskaza-2600/04.jpg",
+        "images/ita-buskaza-2600/05.jpg",
+        "images/ita-buskaza-2600/06.jpg",
+        "images/ita-buskaza-2600/07.jpg",
+        "images/ita-buskaza-2600/08.jpg",
+        "images/ita-buskaza-2600/09.jpg",
+        "images/ita-buskaza-2600/10.jpg",
+        "images/ita-buskaza-2600/11.jpg",
+        "images/ita-buskaza-2600/12.jpg"
+      ]
     },
     {
       "id": "ita-sonhar-cacentro02",
@@ -1565,7 +1972,21 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Casa 3q no centro de Itapoá/Itapema do Norte, R$2.750, rua pavimentada."
+      "razao": "Casa 3q no centro de Itapoá/Itapema do Norte, R$2.750, rua pavimentada.",
+      "photos": [
+        "images/ita-sonhar-cacentro02/01.jpg",
+        "images/ita-sonhar-cacentro02/02.jpg",
+        "images/ita-sonhar-cacentro02/03.jpg",
+        "images/ita-sonhar-cacentro02/04.jpg",
+        "images/ita-sonhar-cacentro02/05.jpg",
+        "images/ita-sonhar-cacentro02/06.jpg",
+        "images/ita-sonhar-cacentro02/07.jpg",
+        "images/ita-sonhar-cacentro02/08.jpg",
+        "images/ita-sonhar-cacentro02/09.jpg",
+        "images/ita-sonhar-cacentro02/10.jpg",
+        "images/ita-sonhar-cacentro02/11.jpg",
+        "images/ita-sonhar-cacentro02/12.jpg"
+      ]
     },
     {
       "id": "ita-sperandio-3000",
@@ -1609,7 +2030,21 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Casa térrea grande mobiliada perto da praia (~50 m no anúncio) e do comércio."
+      "razao": "Casa térrea grande mobiliada perto da praia (~50 m no anúncio) e do comércio.",
+      "photos": [
+        "images/ita-sperandio-3000/01.jpg",
+        "images/ita-sperandio-3000/02.jpg",
+        "images/ita-sperandio-3000/03.jpg",
+        "images/ita-sperandio-3000/04.jpg",
+        "images/ita-sperandio-3000/05.jpg",
+        "images/ita-sperandio-3000/06.jpg",
+        "images/ita-sperandio-3000/07.jpg",
+        "images/ita-sperandio-3000/08.jpg",
+        "images/ita-sperandio-3000/09.jpg",
+        "images/ita-sperandio-3000/10.jpg",
+        "images/ita-sperandio-3000/11.jpg",
+        "images/ita-sperandio-3000/12.jpg"
+      ]
     },
     {
       "id": "ita-olx-1550041340",
@@ -1656,7 +2091,21 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Casa nova em Barra do Saí (vizinho), total ~R$3.073 c/ lixo+seguro-fiança."
+      "razao": "Casa nova em Barra do Saí (vizinho), total ~R$3.073 c/ lixo+seguro-fiança.",
+      "photos": [
+        "images/ita-olx-1550041340/01.jpg",
+        "images/ita-olx-1550041340/02.jpg",
+        "images/ita-olx-1550041340/03.jpg",
+        "images/ita-olx-1550041340/04.jpg",
+        "images/ita-olx-1550041340/05.jpg",
+        "images/ita-olx-1550041340/06.jpg",
+        "images/ita-olx-1550041340/07.jpg",
+        "images/ita-olx-1550041340/08.jpg",
+        "images/ita-olx-1550041340/09.jpg",
+        "images/ita-olx-1550041340/10.jpg",
+        "images/ita-olx-1550041340/11.jpg",
+        "images/ita-olx-1550041340/12.jpg"
+      ]
     },
     {
       "id": "ita-olx-1542275842",
@@ -1664,15 +2113,14 @@
       "bairro": "Continental (vizinho)",
       "titulo": "Casa nova 2q · Continental",
       "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/casa-continental-itapoa-1542275842",
-      "fonte": "OLX",
-      "aluguel": 2300,
+      "fonte": "OLX / Sonhar Imóveis",
+      "aluguel": 2000,
       "taxas": {
         "condo": null,
         "iptu": null,
-        "lixo": 36,
-        "seguro_fianca": null
+        "lixo": 36
       },
-      "total_estimado": 2336,
+      "total_estimado": 2036,
       "quartos": 2,
       "banheiros": 1,
       "area_m2": 55,
@@ -1698,12 +2146,27 @@
         "não aceita pets",
         "só 4–5 fotos vistas"
       ],
-      "analise": "Geminada nova sem mobília em Continental, ~R$2.300+. Compacta mas bem acabada. Bom custo se 2q bastar. (4–5 fotos vistas.)",
+      "analise": "Geminada nova em Continental (vizinho). Também listada na Sonhar a R$2.000 + lixo (~R$2.036). Compacta mas bem acabada. Geminada nova sem mobília em Continental, ~R$2.300+. Compacta mas bem acabada. Bom custo se 2q bastar. (4–5 fotos vistas.)",
       "foto": "images/ita-olx-1542275842.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Geminada nova sem mobília em Continental, ~R$2.300+."
+      "razao": "Geminada nova em Continental; Sonhar R$2.000 + lixo.",
+      "photos": [
+        "images/ita-olx-1542275842/01.jpg",
+        "images/ita-olx-1542275842/02.jpg",
+        "images/ita-olx-1542275842/03.jpg",
+        "images/ita-olx-1542275842/04.jpg",
+        "images/ita-olx-1542275842/05.jpg",
+        "images/ita-olx-1542275842/06.jpg",
+        "images/ita-olx-1542275842/07.jpg",
+        "images/ita-olx-1542275842/08.jpg",
+        "images/ita-olx-1542275842/09.jpg",
+        "images/ita-olx-1542275842/10.jpg",
+        "images/ita-olx-1542275842/11.jpg",
+        "images/ita-olx-1542275842/12.jpg"
+      ],
+      "url_alt": "https://www.sonharimoveisitapoa.com.br/imovel/4397328/casa-locacao"
     },
     {
       "id": "ita-olx-1549587952",
@@ -1748,7 +2211,13 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Geminada 3q a 200 m da praia com luz inclusa, mas quase sem fotos e rua de terra."
+      "razao": "Geminada 3q a 200 m da praia com luz inclusa, mas quase sem fotos e rua de terra.",
+      "photos": [
+        "images/ita-olx-1549587952/01.jpg",
+        "images/ita-olx-1549587952/02.jpg",
+        "images/ita-olx-1549587952/03.jpg",
+        "images/ita-olx-1549587952/04.jpg"
+      ]
     },
     {
       "id": "ita-olx-1547884546",
@@ -1790,7 +2259,17 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Único anúncio OLX com “contrato anual” explícito no próprio Itapema do Norte, mas é kit/studio de 25 m² — inadequado para o perfil."
+      "razao": "Único anúncio OLX com “contrato anual” explícito no próprio Itapema do Norte, mas é kit/studio de 25 m² — inadequado para o perfil.",
+      "photos": [
+        "images/ita-olx-1547884546/01.jpg",
+        "images/ita-olx-1547884546/02.jpg",
+        "images/ita-olx-1547884546/03.jpg",
+        "images/ita-olx-1547884546/04.jpg",
+        "images/ita-olx-1547884546/05.jpg",
+        "images/ita-olx-1547884546/06.jpg",
+        "images/ita-olx-1547884546/07.jpg",
+        "images/ita-olx-1547884546/08.jpg"
+      ]
     },
     {
       "id": "ita-olx-1544812873",
@@ -1834,7 +2313,74 @@
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
-      "razao": "Barata demais pelo estado: paredes gastas/manchadas e banheiro sujo."
+      "razao": "Barata demais pelo estado: paredes gastas/manchadas e banheiro sujo.",
+      "photos": [
+        "images/ita-olx-1544812873/01.jpg",
+        "images/ita-olx-1544812873/02.jpg",
+        "images/ita-olx-1544812873/03.jpg",
+        "images/ita-olx-1544812873/04.jpg",
+        "images/ita-olx-1544812873/05.jpg",
+        "images/ita-olx-1544812873/06.jpg",
+        "images/ita-olx-1544812873/07.jpg"
+      ]
+    },
+    {
+      "id": "ita-sonhar-imperador",
+      "cidade": "Itapoá (Itapema do Norte)",
+      "bairro": "Balneário Imperador (vizinho)",
+      "titulo": "Casa 2q mensal · Balneário Imperador",
+      "url": "https://www.sonharimoveisitapoa.com.br/imovel/4389300/casa-locacao",
+      "fonte": "Sonhar Imóveis Itapoá",
+      "aluguel": 2100,
+      "taxas": {
+        "condo": null,
+        "iptu": null,
+        "lixo": null
+      },
+      "total_estimado": 2100,
+      "quartos": 2,
+      "banheiros": 1,
+      "area_m2": null,
+      "anual": "não confirmado",
+      "disponibilidade": "não informada",
+      "praia_declarada": null,
+      "distancia_mar": null,
+      "distancia_mar_metros": null,
+      "pets": "não informado",
+      "mobiliado": "não informado",
+      "nota_qualidade": 6.5,
+      "veredito": "talvez",
+      "pros": [
+        "preço competitivo",
+        "2q + quintal fundos",
+        "vaga",
+        "agência local"
+      ],
+      "contras": [
+        "balneário vizinho (Imperador)",
+        "distância do mar não declarada",
+        "anual não explícito"
+      ],
+      "analise": "Casa 2 quartos para locação mensal no Balneário Imperador (vizinho de Itapema do Norte) a R$2.100. Quintal nos fundos e vaga. Opção econômica se aceitar o balneário vizinho; confirme contrato anual e praia.",
+      "razao": "Casa 2q mensal no Imperador (vizinho) a R$2.100.",
+      "foto": "images/ita-sonhar-imperador.jpg",
+      "photos": [
+        "images/ita-sonhar-imperador/01.jpg",
+        "images/ita-sonhar-imperador/02.jpg",
+        "images/ita-sonhar-imperador/03.jpg",
+        "images/ita-sonhar-imperador/04.jpg",
+        "images/ita-sonhar-imperador/05.jpg",
+        "images/ita-sonhar-imperador/06.jpg",
+        "images/ita-sonhar-imperador/07.jpg",
+        "images/ita-sonhar-imperador/08.jpg",
+        "images/ita-sonhar-imperador/09.jpg",
+        "images/ita-sonhar-imperador/10.jpg",
+        "images/ita-sonhar-imperador/11.jpg",
+        "images/ita-sonhar-imperador/12.jpg"
+      ],
+      "status": "ativo",
+      "visto_em": "2026-11-09",
+      "adicionado_em": "2026-11-09"
     }
   ],
   "cidades": [

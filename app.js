@@ -14,6 +14,9 @@ const fmtDate = (iso) => {
 const STORAGE_KEY = "casas-escolhas-v1";
 let casas = [];
 let escolhas = {}; // id -> "sim" | "nao"
+let lbPhotos = [];
+let lbIndex = 0;
+let lbTitle = "";
 
 function loadEscolhas() {
   try {
@@ -107,8 +110,35 @@ async function boot() {
   });
   document.body.addEventListener("click", (ev) => {
     const btn = ev.target.closest(".vote-btn");
-    if (!btn) return;
-    setEscolha(btn.dataset.id, btn.dataset.vote);
+    if (btn) {
+      setEscolha(btn.dataset.id, btn.dataset.vote);
+      return;
+    }
+    const g = ev.target.closest("[data-gallery]");
+    if (g) {
+      openLightbox(g.dataset.gallery, Number(g.dataset.idx || 0));
+      return;
+    }
+  });
+  const lb = document.getElementById("lightbox");
+  document.querySelector(".lb-close").addEventListener("click", closeLightbox);
+  document.querySelector(".lb-prev").addEventListener("click", () => lbNav(-1));
+  document.querySelector(".lb-next").addEventListener("click", () => lbNav(1));
+  lb.addEventListener("click", (ev) => { if (ev.target === lb) closeLightbox(); });
+  // swipe
+  let tx = null;
+  lb.addEventListener("touchstart", (e) => { tx = e.changedTouches[0].screenX; }, {passive:true});
+  lb.addEventListener("touchend", (e) => {
+    if (tx == null) return;
+    const dx = e.changedTouches[0].screenX - tx;
+    if (Math.abs(dx) > 40) lbNav(dx < 0 ? 1 : -1);
+    tx = null;
+  }, {passive:true});
+  document.addEventListener("keydown", (e) => {
+    if (document.getElementById("lightbox").hidden) return;
+    if (e.key === "Escape") closeLightbox();
+    if (e.key === "ArrowLeft") lbNav(-1);
+    if (e.key === "ArrowRight") lbNav(1);
   });
   render();
 }
@@ -172,24 +202,41 @@ function filtered() {
   return list;
 }
 
-function rankRow(c, pos) {
-  const muted = c.veredito === "pular" ? " muted" : "";
+function housePhotos(c) {
+  if (Array.isArray(c.photos) && c.photos.length) return c.photos;
+  if (c.foto) return [c.foto];
+  return [];
+}
+
+function thumbHtml(c) {
+  const photos = housePhotos(c);
+  if (!photos.length) return `<div class="rank-thumb" style="display:flex;align-items:center;justify-content:center;font-size:.7rem;color:#94a3b8">sem foto</div>`;
+  const src = c.foto || photos[0];
+  return `<img class="rank-thumb" src="${src}" alt="" loading="lazy" data-gallery="${c.id}" data-idx="0">`;
+}
+
+function rankRow(c, pos, opts={}) {
+  const sumiu = c.status === "sumiu";
+  const muted = (c.veredito === "pular" || sumiu) ? " muted" : "";
   const dist = c.distancia_mar ? c.distancia_mar : "não informada";
   const razao = c.razao || (c.analise || "").split(/(?<=[.!?])\s+/)[0] || c.titulo;
   const marked = getEscolha(c.id);
   const markClass = marked === "sim" ? " marked-sim" : marked === "nao" ? " marked-nao" : "";
-  return `<article class="rank-row${muted}${markClass}" data-house-id="${c.id}">
-    <div class="rank-pos">#${pos}</div>
+  const sumiuClass = sumiu ? " sumiu" : "";
+  const badge = sumiu ? `<span class="badge pular">sumiu</span>` : `<span class="badge ${c.veredito}">${c.veredito}</span>`;
+  return `<article class="rank-row${muted}${markClass}${sumiuClass}" data-house-id="${c.id}">
+    <div class="rank-pos">${sumiu ? "—" : "#"+pos}</div>
     <div class="rank-score"><strong>${c.nota_qualidade}</strong><span>/10</span></div>
+    ${thumbHtml(c)}
     <div class="rank-main">
       <div class="rank-top">
-        <span class="badge ${c.veredito}">${c.veredito}</span>
+        ${badge}
         <span class="rank-place">${c.cidade} · ${val(c.bairro)}</span>
       </div>
       <div class="rank-title">${c.titulo}</div>
-      <div class="rank-meta">${money(c.total_estimado)} · ${val(c.quartos)} q · 🌊 ${dist}</div>
+      <div class="rank-meta">${money(c.total_estimado)} · ${val(c.quartos)} q · 🌊 ${dist}${housePhotos(c).length ? ` · ${housePhotos(c).length} fotos` : ""}</div>
       <div class="rank-reason">${razao}</div>
-      ${escolhaButtons(c.id)}
+      ${sumiu ? "" : escolhaButtons(c.id)}
     </div>
     <div class="rank-actions">
       <a href="${c.url}" target="_blank" rel="noopener">Anúncio</a>
@@ -198,8 +245,9 @@ function rankRow(c, pos) {
 }
 
 function card(c) {
-  const foto = c.foto
-    ? `<img src="${c.foto}" alt="${c.titulo}" loading="lazy">`
+  const fotos = housePhotos(c);
+  const foto = fotos.length
+    ? `<img class="card-hero" src="${c.foto || fotos[0]}" alt="${c.titulo}" loading="lazy" data-gallery="${c.id}" data-idx="0">`
     : `<div class="ph">Sem foto</div>`;
   const pros = (c.pros||[]).map(p => `<li>${p}</li>`).join("") || "<li>não informado</li>";
   const cons = (c.contras||[]).map(p => `<li>${p}</li>`).join("") || "<li>não informado</li>";
@@ -261,23 +309,57 @@ function render() {
   const view = document.getElementById("viewMode").value;
   const rankingEl = document.getElementById("ranking");
   const gridEl = document.getElementById("grid");
+  const saidas = casas.filter(c => c.status === "sumiu" || c.status === "alugado");
+  const saidasHtml = saidas.length
+    ? `<section class="sairam"><h2>Saíram / removidos</h2>${saidas.map(c => rankRow(c, 0)).join("")}</section>`
+    : "";
   if (view === "ranking") {
     rankingEl.hidden = false;
     gridEl.hidden = true;
     rankingEl.innerHTML = list.length
-      ? `<div class="ranking-head"><h2>Ranking geral</h2><p class="note">Ordenado por nota (maior → menor). Empate: visitar → talvez → pular, depois menor total. Use Sim/Não para filtrar.</p></div>` +
-        list.map((c,i) => rankRow(c, i+1)).join("")
-      : `<div class="empty">Nenhuma casa com esses filtros.</div>`;
+      ? `<div class="ranking-head"><h2>Ranking geral</h2><p class="note">Ordenado por nota (maior → menor). Empate: visitar → talvez → pular, depois menor total. Toque na foto para abrir a galeria.</p></div>` +
+        list.map((c,i) => rankRow(c, i+1)).join("") + saidasHtml
+      : `<div class="empty">Nenhuma casa com esses filtros.</div>` + saidasHtml;
     gridEl.innerHTML = "";
   } else {
     rankingEl.hidden = true;
     gridEl.hidden = false;
-    rankingEl.innerHTML = "";
+    rankingEl.innerHTML = saidasHtml;
     gridEl.innerHTML = list.length
       ? list.map(card).join("")
       : `<div class="empty">Nenhuma casa com esses filtros.</div>`;
   }
 }
+
+function openLightbox(houseId, idx) {
+  const c = casas.find(x => x.id === houseId);
+  if (!c) return;
+  lbPhotos = housePhotos(c);
+  if (!lbPhotos.length) return;
+  lbIndex = Math.max(0, Math.min(idx || 0, lbPhotos.length - 1));
+  lbTitle = c.titulo || houseId;
+  const lb = document.getElementById("lightbox");
+  lb.hidden = false;
+  showLb();
+}
+
+function showLb() {
+  const img = document.getElementById("lbImg");
+  img.src = lbPhotos[lbIndex];
+  document.getElementById("lbCaption").textContent = `${lbTitle} · ${lbIndex + 1}/${lbPhotos.length}`;
+}
+
+function closeLightbox() {
+  document.getElementById("lightbox").hidden = true;
+  lbPhotos = [];
+}
+
+function lbNav(dir) {
+  if (!lbPhotos.length) return;
+  lbIndex = (lbIndex + dir + lbPhotos.length) % lbPhotos.length;
+  showLb();
+}
+
 
 async function exportEscolhas() {
   const simIds = Object.keys(escolhas).filter((id) => escolhas[id] === "sim");
