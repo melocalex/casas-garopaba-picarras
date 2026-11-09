@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casas anuais · Garopaba & Balneário Piçarras</title>
+  <meta name="description" content="Painel de casas para locação anual em Garopaba e Balneário Piçarras.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="hero wrap">
+    <h1>Casas anuais · Garopaba & Piçarras</h1>
+    <p>Painel para acompanhar casas (somente casas) de locação anual/longa, com foco em janeiro/2027, até cerca de R$ 3.500. Dados vindos de <code>data.json</code>.</p>
+    <div class="stats">
+      <div class="stat"><b id="statTotal">—</b><span>casas ativas</span></div>
+      <div class="stat"><b id="statGar">—</b><span>em Garopaba</span></div>
+      <div class="stat"><b id="statPic">—</b><span>em Piçarras</span></div>
+      <div class="stat"><b id="statBest">—</b><span>visitar mais barata</span></div>
+    </div>
+    <p class="note">Última atualização: <span id="atualizado">—</span></p>
+  </header>
+
+  <main class="wrap">
+    <section class="filters" aria-label="Filtros">
+      <label>Cidade
+        <select id="cidade">
+          <option value="">Todas</option>
+          <option>Garopaba</option>
+          <option>Balneário Piçarras</option>
+        </select>
+      </label>
+      <label>Veredito
+        <select id="veredito">
+          <option value="">Todos</option>
+          <option value="visitar">visitar</option>
+          <option value="talvez">talvez</option>
+          <option value="pular">pular</option>
+        </select>
+      </label>
+      <label>Total máximo (R$)
+        <input id="maxTotal" type="number" min="0" step="50" placeholder="ex: 3500">
+      </label>
+      <label>Mín. quartos
+        <select id="minQuartos">
+          <option value="">Qualquer</option>
+          <option value="2">2+</option>
+          <option value="3">3+</option>
+        </select>
+      </label>
+      <label>Ordenar
+        <select id="sort">
+          <option value="custo">Custo-benefício</option>
+          <option value="total">Menor total</option>
+          <option value="nota">Maior nota</option>
+        </select>
+      </label>
+      <button type="button" id="reset">Limpar</button>
+      <span class="note" id="count"></span>
+    </section>
+
+    <section id="grid" class="grid" aria-live="polite"></section>
+
+    <section class="tips">
+      <h2>Dicas para fechar até janeiro</h2>
+      <ol>
+        <li><strong>Cronograma:</strong> visitar até começo de dezembro e mirar assinatura por volta de 15/12 — janeiro é pico de verão e a oferta anual some.</li>
+        <li><strong>Documentos:</strong> leve RG/CPF, comprovante de renda (~3× o aluguel) e já tenha uma garantia pré-aprovada (caução, fiador ou seguro-fiança).</li>
+        <li><strong>Só uma garantia:</strong> a Lei 8.245/1991 (arts. 37–38) permite apenas uma modalidade; caução em dinheiro no máximo 3 aluguéis, em poupança.</li>
+        <li><strong>Nunca pague sinal antes de visitar</strong> o imóvel e falar com a imobiliária/proprietário no local.</li>
+        <li><strong>Confira CRECI da imobiliária</strong> e o nome no registro/contrato do imóvel.</li>
+        <li><strong>Peça laudo/vistoria com fotos</strong> na entrada (e saída) para registrar o estado.</li>
+        <li><strong>Contrato:</strong> recuse cláusula que obrigue desocupar no verão; peça locação anual/12 meses sem saída forçada na temporada.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    Painel estático no GitHub Pages · atualizado via <code>data.json</code> · distâncias de praia só quando o anúncio declara.
+  </footer>
+  <script src="./app.js"></script>
+</body>
+</html>
