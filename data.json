@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-09T15:30:00-03:00",
+  "atualizado_em": "2026-11-09T15:40:00-03:00",
   "fuso": "America/Sao_Paulo",
   "casas": [
     {
@@ -10,7 +10,13 @@
       "url": "https://www.alternativasc.com.br/imoveis/casa-terrea-para-locacao-loc-010/",
       "fonte": "Alternativa SC",
       "aluguel": 3000,
-      "taxas": {"iptu": 130.72, "lixo": 49.92, "condo": null, "seguro": null, "observacao": "Água e luz à parte; seguro-fiança"},
+      "taxas": {
+        "iptu": 130.72,
+        "lixo": 49.92,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Água e luz à parte; seguro-fiança"
+      },
       "total_estimado": 3180.64,
       "quartos": 3,
       "banheiros": 1,
@@ -22,8 +28,18 @@
       "mobiliado": "semi",
       "nota_qualidade": 8.5,
       "veredito": "visitar",
-      "pros": ["3 quartos", "gramado murado", "cerca elétrica", "acabamento moderno", "AC nos quartos", "rua pavimentada"],
-      "contras": ["quintal sem churrasqueira", "sem data de liberação no anúncio"],
+      "pros": [
+        "3 quartos",
+        "gramado murado",
+        "cerca elétrica",
+        "acabamento moderno",
+        "AC nos quartos",
+        "rua pavimentada"
+      ],
+      "contras": [
+        "quintal sem churrasqueira",
+        "sem data de liberação no anúncio"
+      ],
       "analise": "Casa térrea moderna e limpa, sem sinais de mofo nas fotos. Quintal gramado privativo e segurança alta. Melhor equilíbrio preço × qualidade de vida em Piçarras para casal formando família.",
       "foto": "images/pic-loc010.jpg",
       "status": "ativo",
@@ -38,7 +54,13 @@
       "url": "https://www.alternativasc.com.br/imoveis/sobrado-mobiliado-loc-061/",
       "fonte": "Alternativa SC",
       "aluguel": 2500,
-      "taxas": {"iptu": 73.15, "lixo": 49.92, "condo": null, "seguro": null, "observacao": "Água e luz à parte; seguro-fiança"},
+      "taxas": {
+        "iptu": 73.15,
+        "lixo": 49.92,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Água e luz à parte; seguro-fiança"
+      },
       "total_estimado": 2623.07,
       "quartos": 2,
       "banheiros": 2,
@@ -50,8 +72,18 @@
       "mobiliado": "sim",
       "nota_qualidade": 7.5,
       "veredito": "visitar",
-      "pros": ["mobiliado completo", "450 m da praia (declarado)", "churrasqueira", "AC", "bom custo"],
-      "contras": ["geminado (parede compartilhada)", "pátio pavimentado pequeno", "sem gramado"],
+      "pros": [
+        "mobiliado completo",
+        "450 m da praia (declarado)",
+        "churrasqueira",
+        "AC",
+        "bom custo"
+      ],
+      "contras": [
+        "geminado (parede compartilhada)",
+        "pátio pavimentado pequeno",
+        "sem gramado"
+      ],
       "analise": "Sobrado geminado limpo e pronto para morar. Pátio traseiro com churrasqueira é funcional, mas sem área verde. Melhor valor perto da praia em Piçarras.",
       "foto": "images/pic-loc061.jpg",
       "status": "ativo",
@@ -66,7 +98,13 @@
       "url": "https://www.climoveis.net.br/imovel/casa-balneario-picarras-itacolomi-2-quartos-2-garagens-aluguel-ref-292/",
       "fonte": "CLI Imóveis",
       "aluguel": 2600,
-      "taxas": {"iptu": 7.92, "lixo": 49.9, "condo": null, "seguro": null, "observacao": "IPTU R$95/ano no anúncio; seguro-fiança a simular"},
+      "taxas": {
+        "iptu": 7.92,
+        "lixo": 49.9,
+        "condo": null,
+        "seguro": null,
+        "observacao": "IPTU R$95/ano no anúncio; seguro-fiança a simular"
+      },
       "total_estimado": 2657.82,
       "quartos": 2,
       "banheiros": 2,
@@ -78,8 +116,18 @@
       "mobiliado": "semi",
       "nota_qualidade": 7,
       "veredito": "visitar",
-      "pros": ["disponível 01/12", "acabamento novo", "suíte", "muro alto", "próximo comércio"],
-      "contras": ["rua parece sem asfalto (poeira)", "pátio só lajeado", "sem distância de praia declarada"],
+      "pros": [
+        "disponível 01/12",
+        "acabamento novo",
+        "suíte",
+        "muro alto",
+        "próximo comércio"
+      ],
+      "contras": [
+        "rua parece sem asfalto (poeira)",
+        "pátio só lajeado",
+        "sem distância de praia declarada"
+      ],
       "analise": "Casa moderna bem cuidada, sem mofo aparente. Timing ideal para mudança em janeiro. Confirmar piso da rua e caminhada até a praia na visita.",
       "foto": "images/pic-cli292.jpg",
       "status": "ativo",
@@ -94,7 +142,13 @@
       "url": "https://www.alternativasc.com.br/imoveis/casa-para-locacao-anual-loc-055/",
       "fonte": "Alternativa SC",
       "aluguel": 2100,
-      "taxas": {"iptu": 86.18, "lixo": 49.92, "condo": null, "seguro": null, "observacao": "Água e luz à parte"},
+      "taxas": {
+        "iptu": 86.18,
+        "lixo": 49.92,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Água e luz à parte"
+      },
       "total_estimado": 2236.1,
       "quartos": 2,
       "banheiros": 1,
@@ -106,8 +160,16 @@
       "mobiliado": "sim",
       "nota_qualidade": 5.5,
       "veredito": "talvez",
-      "pros": ["mais barata", "térrea isolada no terreno", "rua pavimentada"],
-      "contras": ["acabamento mais antigo", "quintal estreito/sem gramado útil", "1.400 m da Av. Nereu Ramos (mais longe da orla)"],
+      "pros": [
+        "mais barata",
+        "térrea isolada no terreno",
+        "rua pavimentada"
+      ],
+      "contras": [
+        "acabamento mais antigo",
+        "quintal estreito/sem gramado útil",
+        "1.400 m da Av. Nereu Ramos (mais longe da orla)"
+      ],
       "analise": "Opção econômica funcional. Exterior com desgaste típico; banheiro melhor que o resto. Só vale se o orçamento for prioridade absoluta.",
       "foto": "images/pic-loc055.jpg",
       "status": "ativo",
@@ -122,7 +184,13 @@
       "url": "https://www.maravista.imb.br/imovel/4434635/sobrado-locacao-balneario-picarras-sc-itacolomi",
       "fonte": "MarAvista",
       "aluguel": 3500,
-      "taxas": {"iptu": 123, "lixo": 50, "condo": null, "seguro": null, "observacao": "IPTU e taxas listados à parte; total pode passar de R$3.500"},
+      "taxas": {
+        "iptu": 123,
+        "lixo": 50,
+        "condo": null,
+        "seguro": null,
+        "observacao": "IPTU e taxas listados à parte; total pode passar de R$3.500"
+      },
       "total_estimado": 3673,
       "quartos": 2,
       "banheiros": 3,
@@ -134,8 +202,18 @@
       "mobiliado": "sim",
       "nota_qualidade": 8,
       "veredito": "talvez",
-      "pros": ["2 suítes", "energia solar", "acabamento moderno", "churrasqueira", "Rua Serena 724"],
-      "contras": ["total estimado acima do teto", "geminado", "700 m a confirmar no local"],
+      "pros": [
+        "2 suítes",
+        "energia solar",
+        "acabamento moderno",
+        "churrasqueira",
+        "Rua Serena 724"
+      ],
+      "contras": [
+        "total estimado acima do teto",
+        "geminado",
+        "700 m a confirmar no local"
+      ],
       "analise": "Melhor acabamento da lista Piçarras, mas IPTU+taxas provavelmente estouram R$3.500. Confirmar pacote de taxas antes de priorizar. Endereço: Rua Serena, 724-A.",
       "foto": "images/pic-maravista.jpg",
       "status": "ativo",
@@ -150,7 +228,13 @@
       "url": "https://deztop.com/br/imovel/303525627/casa-2-dormitorios-balneario-picarras",
       "fonte": "Deztop / Alex S.O.",
       "aluguel": 2500,
-      "taxas": {"iptu": 103.76, "lixo": 47.58, "condo": null, "seguro": null, "observacao": "IPTU anual R$1.037,61 no anúncio"},
+      "taxas": {
+        "iptu": 103.76,
+        "lixo": 47.58,
+        "condo": null,
+        "seguro": null,
+        "observacao": "IPTU anual R$1.037,61 no anúncio"
+      },
       "total_estimado": 2651.34,
       "quartos": 2,
       "banheiros": 3,
@@ -162,8 +246,18 @@
       "mobiliado": "semi",
       "nota_qualidade": 7.5,
       "veredito": "talvez",
-      "pros": ["2 suítes", "pintura nova", "churrasqueira", "armários planejados", "bom preço"],
-      "contras": ["fotos com marca Alternativa (republicação)", "sem distância de praia", "atualizado há >1 mês"],
+      "pros": [
+        "2 suítes",
+        "pintura nova",
+        "churrasqueira",
+        "armários planejados",
+        "bom preço"
+      ],
+      "contras": [
+        "fotos com marca Alternativa (republicação)",
+        "sem distância de praia",
+        "atualizado há >1 mês"
+      ],
       "analise": "Sobrado renovado com bom acabamento nas fotos. Confirmar se ainda está livre e se as fotos correspondem ao imóvel.",
       "foto": "images/pic-dez2500.jpg",
       "status": "ativo",
@@ -178,7 +272,13 @@
       "url": "https://www.imobiliariaoceano.com.br/imovel/casa-balneario-picarras-2-quartos-59-m/CA0113-OCEN",
       "fonte": "Imobiliária Oceano",
       "aluguel": 2500,
-      "taxas": {"iptu": null, "lixo": null, "condo": null, "seguro": null, "observacao": "Água/luz à parte; condomínio fechado"},
+      "taxas": {
+        "iptu": null,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Água/luz à parte; condomínio fechado"
+      },
       "total_estimado": 2500,
       "quartos": 2,
       "banheiros": 1,
@@ -190,8 +290,17 @@
       "mobiliado": "semi",
       "nota_qualidade": 6.5,
       "veredito": "talvez",
-      "pros": ["limpo/moderno", "condomínio fechado", "portão eletrônico"],
-      "contras": ["não aceita pets", "59 m² compacto", "pouco verde", "sem distância de praia"],
+      "pros": [
+        "limpo/moderno",
+        "condomínio fechado",
+        "portão eletrônico"
+      ],
+      "contras": [
+        "não aceita pets",
+        "59 m² compacto",
+        "pouco verde",
+        "sem distância de praia"
+      ],
       "analise": "Casa pequena e limpa em condomínio. Só faz sentido se pets não forem necessidade e o tamanho bastar.",
       "foto": "images/pic-ca0113.jpg",
       "status": "ativo",
@@ -206,7 +315,13 @@
       "url": "https://www.imobiliariaoceano.com.br/imovel/casa-balneario-picarras-2-quartos-65-m/CA0052-OCEN",
       "fonte": "Imobiliária Oceano",
       "aluguel": 2200,
-      "taxas": {"iptu": null, "lixo": null, "condo": null, "seguro": null, "observacao": "Fotos ilustrativas; seguro-fiança/credpago"},
+      "taxas": {
+        "iptu": null,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Fotos ilustrativas; seguro-fiança/credpago"
+      },
       "total_estimado": 2200,
       "quartos": 2,
       "banheiros": 1,
@@ -218,8 +333,16 @@
       "mobiliado": "",
       "nota_qualidade": 5,
       "veredito": "pular",
-      "pros": ["preço baixo", "condomínio fechado"],
-      "contras": ["fotos ilustrativas", "não aceita pets", "evidência anual fraca", "pátio mínimo"],
+      "pros": [
+        "preço baixo",
+        "condomínio fechado"
+      ],
+      "contras": [
+        "fotos ilustrativas",
+        "não aceita pets",
+        "evidência anual fraca",
+        "pátio mínimo"
+      ],
       "analise": "Anúncio com fotos ilustrativas e pouca evidência de contrato anual. Não priorizar.",
       "foto": "images/pic-ca0052.jpg",
       "status": "ativo",
@@ -234,7 +357,13 @@
       "url": "https://www.imobiliariaoceano.com.br/imovel/casa-balneario-picarras-2-quartos-80-m/CA0110-OCEN",
       "fonte": "Imobiliária Oceano",
       "aluguel": 2500,
-      "taxas": {"iptu": 300, "lixo": null, "condo": null, "seguro": null, "observacao": "Preço confuso no anúncio (R$2.500 / pacote R$2.800 / texto R$3.000+taxas)"},
+      "taxas": {
+        "iptu": 300,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Preço confuso no anúncio (R$2.500 / pacote R$2.800 / texto R$3.000+taxas)"
+      },
       "total_estimado": 2800,
       "quartos": 2,
       "banheiros": 1,
@@ -246,8 +375,15 @@
       "mobiliado": "sim",
       "nota_qualidade": 5,
       "veredito": "pular",
-      "pros": ["quintal gramado grande", "churrasqueira coberta"],
-      "contras": ["umidade/infiltração visível nas paredes externas", "preço inconsistente", "pode ser só o térreo"],
+      "pros": [
+        "quintal gramado grande",
+        "churrasqueira coberta"
+      ],
+      "contras": [
+        "umidade/infiltração visível nas paredes externas",
+        "preço inconsistente",
+        "pode ser só o térreo"
+      ],
       "analise": "Quintal atrativo, mas fotos mostram umidade ascendente forte no corredor externo — risco alto para família. Pular salvo inspeção presencial limpar a dúvida.",
       "foto": "images/pic-ca0110.jpg",
       "status": "ativo",
@@ -262,7 +398,13 @@
       "url": "https://deztop.com/br/imovel/303625981",
       "fonte": "Deztop",
       "aluguel": 3000,
-      "taxas": {"iptu": null, "lixo": null, "condo": null, "seguro": null, "observacao": "Entrada: 1 aluguel + 1 caução"},
+      "taxas": {
+        "iptu": null,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Entrada: 1 aluguel + 1 caução"
+      },
       "total_estimado": 3000,
       "quartos": 2,
       "banheiros": 2,
@@ -274,8 +416,17 @@
       "mobiliado": "",
       "nota_qualidade": 7.5,
       "veredito": "visitar",
-      "pros": ["Centro", "locação anual explícita", "suíte", "caução simples (1 mês)"],
-      "contras": ["sem data de entrada", "atualizado há >1 mês", "distância da praia não declarada"],
+      "pros": [
+        "Centro",
+        "locação anual explícita",
+        "suíte",
+        "caução simples (1 mês)"
+      ],
+      "contras": [
+        "sem data de entrada",
+        "atualizado há >1 mês",
+        "distância da praia não declarada"
+      ],
       "analise": "Boa opção para viver no centro de Garopaba o ano todo. Garantia leve (1+1). Confirmar disponibilidade para janeiro.",
       "foto": "images/gar-centro.jpg",
       "status": "ativo",
@@ -290,7 +441,13 @@
       "url": "https://deztop.com/br/imovel/302850165",
       "fonte": "Deztop / Azenha",
       "aluguel": 2800,
-      "taxas": {"iptu": 0, "lixo": null, "condo": null, "seguro": null, "observacao": "IPTU incluso no aluguel (texto do anúncio)"},
+      "taxas": {
+        "iptu": 0,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "IPTU incluso no aluguel (texto do anúncio)"
+      },
       "total_estimado": 2800,
       "quartos": 2,
       "banheiros": 1,
@@ -302,8 +459,16 @@
       "mobiliado": "semi",
       "nota_qualidade": 7,
       "veredito": "visitar",
-      "pros": ["IPTU incluso", "pátio grande fechado", "3 vagas", "próximo ao centro"],
-      "contras": ["anual não explícito no texto principal", "1 banheiro"],
+      "pros": [
+        "IPTU incluso",
+        "pátio grande fechado",
+        "3 vagas",
+        "próximo ao centro"
+      ],
+      "contras": [
+        "anual não explícito no texto principal",
+        "1 banheiro"
+      ],
       "analise": "Casa com bom pátio fechado e IPTU incluso. Confirmar na visita se o contrato é anual sem saída no verão.",
       "foto": "images/gar-ambrosio.jpg",
       "status": "ativo",
@@ -318,7 +483,13 @@
       "url": "https://www.francoadmimoveis.com.br/imovel/4166210/casa-locacao-garopaba-sc-limpa",
       "fonte": "Franco Adm. Imóveis",
       "aluguel": 2550,
-      "taxas": {"iptu": 0, "lixo": null, "condo": null, "seguro": null, "observacao": "Água, luz e IPTU inclusos; caução 3 meses OU fiador OU seguro-fiança"},
+      "taxas": {
+        "iptu": 0,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Água, luz e IPTU inclusos; caução 3 meses OU fiador OU seguro-fiança"
+      },
       "total_estimado": 2550,
       "quartos": 3,
       "banheiros": 1,
@@ -330,8 +501,18 @@
       "mobiliado": "semi",
       "nota_qualidade": 8,
       "veredito": "visitar",
-      "pros": ["utilidades+IPTU inclusos", "3 quartos", "casa nova", "pátio", "garantia flexível"],
-      "contras": ["bairro Limpa (não à beira-mar)", "60 m² compactos", "1 banheiro"],
+      "pros": [
+        "utilidades+IPTU inclusos",
+        "3 quartos",
+        "casa nova",
+        "pátio",
+        "garantia flexível"
+      ],
+      "contras": [
+        "bairro Limpa (não à beira-mar)",
+        "60 m² compactos",
+        "1 banheiro"
+      ],
       "analise": "Melhor custo efetivo em Garopaba: R$2.550 com água/luz/IPTU. Casa azul térrea limpa nas fotos. Ideal se praia a pé não for obrigatória.",
       "foto": "images/gar-franco.jpg",
       "status": "ativo",
@@ -346,7 +527,13 @@
       "url": "https://deztop.com/br/imovel/302969953",
       "fonte": "Deztop / Noblesse",
       "aluguel": 2500,
-      "taxas": {"iptu": null, "lixo": null, "condo": 1, "seguro": null, "observacao": "Água, luz e internet inclusos"},
+      "taxas": {
+        "iptu": null,
+        "lixo": null,
+        "condo": 1,
+        "seguro": null,
+        "observacao": "Água, luz e internet inclusos"
+      },
       "total_estimado": 2501,
       "quartos": 2,
       "banheiros": 1,
@@ -358,8 +545,17 @@
       "mobiliado": "sim",
       "nota_qualidade": 8,
       "veredito": "visitar",
-      "pros": ["<20 m do mar (declarado)", "mobiliada", "água/luz/internet inclusos", "preço"],
-      "contras": ["condomínio de 4 casas", "67 m²", "1 banheiro"],
+      "pros": [
+        "<20 m do mar (declarado)",
+        "mobiliada",
+        "água/luz/internet inclusos",
+        "preço"
+      ],
+      "contras": [
+        "condomínio de 4 casas",
+        "67 m²",
+        "1 banheiro"
+      ],
       "analise": "Única casa Garopaba com distância de praia tão curta declarada. Ambiente familiar em condomínio pequeno. Confirmar regras do condomínio e disponibilidade janeiro.",
       "foto": "images/gar-ferrugem.jpg",
       "status": "ativo",
@@ -374,7 +570,13 @@
       "url": "https://www.imobiliariatrip.com.br/imovel/4258549/aluguel-anual-locacao-garopaba-sc-encantada",
       "fonte": "Imobiliária Trip",
       "aluguel": 3500,
-      "taxas": {"iptu": null, "lixo": null, "condo": null, "seguro": null, "observacao": "+ taxas e IPTU (valores não detalhados)"},
+      "taxas": {
+        "iptu": null,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "+ taxas e IPTU (valores não detalhados)"
+      },
       "total_estimado": 3500,
       "quartos": 3,
       "banheiros": 2,
@@ -386,8 +588,17 @@
       "mobiliado": "sim",
       "nota_qualidade": 7,
       "veredito": "talvez",
-      "pros": ["3 quartos (1 suíte)", "contrato 12 meses", "mobiliada", "garagem e pátio"],
-      "contras": ["teto do orçamento", "2º andar sobre ponto comercial", "taxas não detalhadas"],
+      "pros": [
+        "3 quartos (1 suíte)",
+        "contrato 12 meses",
+        "mobiliada",
+        "garagem e pátio"
+      ],
+      "contras": [
+        "teto do orçamento",
+        "2º andar sobre ponto comercial",
+        "taxas não detalhadas"
+      ],
       "analise": "Casa no segundo piso sobre comércio na SC-434. Boa metragem familiar, mas ruído comercial e taxas extras a confirmar.",
       "foto": "images/gar-encantada.jpg",
       "status": "ativo",
@@ -402,7 +613,13 @@
       "url": "https://deztop.com/br/imovel/303548160/casa-2-dormitorios-garopaba",
       "fonte": "Deztop / Costa Sul",
       "aluguel": 2300,
-      "taxas": {"iptu": null, "lixo": null, "condo": null, "seguro": null, "observacao": "URL original Costa Sul 404; só Deztop"},
+      "taxas": {
+        "iptu": null,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "URL original Costa Sul 404; só Deztop"
+      },
       "total_estimado": 2300,
       "quartos": 2,
       "banheiros": 2,
@@ -414,8 +631,16 @@
       "mobiliado": "",
       "nota_qualidade": 5,
       "veredito": "talvez",
-      "pros": ["preço baixo", "anual explícito", "1 suíte"],
-      "contras": ["sem fotos reais sólidas", "agência original 404", "longe da praia"],
+      "pros": [
+        "preço baixo",
+        "anual explícito",
+        "1 suíte"
+      ],
+      "contras": [
+        "sem fotos reais sólidas",
+        "agência original 404",
+        "longe da praia"
+      ],
       "analise": "Barata e anual no papel, mas evidência visual fraca. Só avançar após ver fotos reais ou visita.",
       "foto": "",
       "status": "ativo",
@@ -430,7 +655,13 @@
       "url": "https://www.alexiaconsultoriaimobiliaria.com/locaes-praia-de-garopaba",
       "fonte": "Alexia Consultoria",
       "aluguel": 2600,
-      "taxas": {"iptu": null, "lixo": null, "condo": null, "seguro": null, "observacao": "Água e luz à parte"},
+      "taxas": {
+        "iptu": null,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Água e luz à parte"
+      },
       "total_estimado": 2600,
       "quartos": null,
       "banheiros": null,
@@ -442,8 +673,15 @@
       "mobiliado": "",
       "nota_qualidade": 5,
       "veredito": "talvez",
-      "pros": ["500 m da praia do centro (declarado)", "preço"],
-      "contras": ["sem URL individual", "quartos não informados", "só 'casa para 5 pessoas'"],
+      "pros": [
+        "500 m da praia do centro (declarado)",
+        "preço"
+      ],
+      "contras": [
+        "sem URL individual",
+        "quartos não informados",
+        "só 'casa para 5 pessoas'"
+      ],
       "analise": "Anúncio incompleto na página de locações. Precisa esclarecer layout antes de visita.",
       "foto": "",
       "status": "ativo",
@@ -458,7 +696,13 @@
       "url": "https://sc.olx.com.br/florianopolis-e-regiao/imoveis/alugo-casas-anual-a-150-metros-da-beira-da-praia-da-ferrugem-1490047854",
       "fonte": "OLX",
       "aluguel": 3000,
-      "taxas": {"iptu": null, "lixo": null, "condo": 100, "seguro": null, "observacao": ""},
+      "taxas": {
+        "iptu": null,
+        "lixo": null,
+        "condo": 100,
+        "seguro": null,
+        "observacao": ""
+      },
       "total_estimado": 3100,
       "quartos": 3,
       "banheiros": 1,
@@ -470,8 +714,18 @@
       "mobiliado": "sim",
       "nota_qualidade": 7,
       "veredito": "talvez",
-      "pros": ["perto da Ferrugem", "3 quartos", "aceita pet", "churrasqueira coberta"],
-      "contras": ["interior datado", "estacionamento brita compartilhado", "sem pátio privado", "vizinhos próximos"],
+      "pros": [
+        "perto da Ferrugem",
+        "3 quartos",
+        "aceita pet",
+        "churrasqueira coberta"
+      ],
+      "contras": [
+        "interior datado",
+        "estacionamento brita compartilhado",
+        "sem pátio privado",
+        "vizinhos próximos"
+      ],
       "analise": "Sobrado entre palmeiras com localização forte. Interior antigo (piso cerâmico, paredes amarelas, forro de madeira); um quarto apertado. Bom se priorizar praia e aceitar acabamento antigo.",
       "foto": "images/gar-olx-ferrugem.jpg",
       "status": "ativo",
@@ -486,7 +740,13 @@
       "url": "https://sc.olx.com.br/florianopolis-e-regiao/imoveis/sobrado-com-2-suites-para-locacao-anual-no-centro-de-garopaba-sc-1546387925",
       "fonte": "OLX",
       "aluguel": 2890,
-      "taxas": {"iptu": 140, "lixo": null, "condo": 50, "seguro": null, "observacao": ""},
+      "taxas": {
+        "iptu": 140,
+        "lixo": null,
+        "condo": 50,
+        "seguro": null,
+        "observacao": ""
+      },
       "total_estimado": 3080,
       "quartos": 2,
       "banheiros": 3,
@@ -498,8 +758,17 @@
       "mobiliado": "semi",
       "nota_qualidade": 7,
       "veredito": "talvez",
-      "pros": ["2 suítes", "limpo", "acabamento neutro", "Centro"],
-      "contras": ["compacto 74 m²", "escada", "sem quintal"],
+      "pros": [
+        "2 suítes",
+        "limpo",
+        "acabamento neutro",
+        "Centro"
+      ],
+      "contras": [
+        "compacto 74 m²",
+        "escada",
+        "sem quintal"
+      ],
       "analise": "Sobrado limpo e funcional no Centro, sem área externa. Adequado para casal sem necessidade de quintal.",
       "foto": "images/gar-olx-centro.jpg",
       "status": "ativo",
@@ -514,7 +783,13 @@
       "url": "https://sc.olx.com.br/florianopolis-e-regiao/imoveis/casa-em-garopaba-aluguel-anual-1551311163",
       "fonte": "OLX",
       "aluguel": 3500,
-      "taxas": {"iptu": 80, "lixo": null, "condo": null, "seguro": null, "observacao": ""},
+      "taxas": {
+        "iptu": 80,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": ""
+      },
       "total_estimado": 3580,
       "quartos": 2,
       "banheiros": 1,
@@ -526,8 +801,19 @@
       "mobiliado": "não",
       "nota_qualidade": 7,
       "veredito": "talvez",
-      "pros": ["pátio 400 m² murado", "gramado", "térrea moderna", "aceita pet", "liberação dezembro"],
-      "contras": ["total no teto/acima", "sem mobília", "fotos quase só externas", "distância de praia vaga"],
+      "pros": [
+        "pátio 400 m² murado",
+        "gramado",
+        "térrea moderna",
+        "aceita pet",
+        "liberação dezembro"
+      ],
+      "contras": [
+        "total no teto/acima",
+        "sem mobília",
+        "fotos quase só externas",
+        "distância de praia vaga"
+      ],
       "analise": "Excelente área externa murada. Poucas fotos internas — visita essencial. Total ~R$3.580 se IPTU for mensal.",
       "foto": "images/gar-olx-macacu.jpg",
       "status": "ativo",
@@ -542,7 +828,13 @@
       "url": "https://sc.olx.com.br/florianopolis-e-regiao/imoveis/locacao-anual-casa-com-2-quartos-loteamento-pedra-branca-1545562804",
       "fonte": "OLX",
       "aluguel": 2700,
-      "taxas": {"iptu": 70, "lixo": null, "condo": null, "seguro": null, "observacao": ""},
+      "taxas": {
+        "iptu": 70,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": ""
+      },
       "total_estimado": 2770,
       "quartos": 2,
       "banheiros": 1,
@@ -554,8 +846,18 @@
       "mobiliado": "",
       "nota_qualidade": 8,
       "veredito": "visitar",
-      "pros": ["moderna e clara", "pequeno gramado cercado", "aceita pet", "disponível 15/11", "bom preço"],
-      "contras": ["colada a vizinhos", "1 banheiro", "sem distância de praia"],
+      "pros": [
+        "moderna e clara",
+        "pequeno gramado cercado",
+        "aceita pet",
+        "disponível 15/11",
+        "bom preço"
+      ],
+      "contras": [
+        "colada a vizinhos",
+        "1 banheiro",
+        "sem distância de praia"
+      ],
       "analise": "Casa clara e moderna com gramado pequeno cercado. Forte candidata em Garopaba pelo custo-benefício e data de liberação.",
       "foto": "images/gar-olx-palhocinha.jpg",
       "status": "ativo",
@@ -570,7 +872,13 @@
       "url": "https://sc.olx.com.br/florianopolis-e-regiao/imoveis/casa-para-aluguel-anual-com-2-quartos-em-campo-duna-garopaba-sc-1547728760",
       "fonte": "OLX",
       "aluguel": 2200,
-      "taxas": {"iptu": null, "lixo": null, "condo": 0, "seguro": null, "observacao": "IPTU não informado"},
+      "taxas": {
+        "iptu": null,
+        "lixo": null,
+        "condo": 0,
+        "seguro": null,
+        "observacao": "IPTU não informado"
+      },
       "total_estimado": 2200,
       "quartos": 2,
       "banheiros": 1,
@@ -582,10 +890,244 @@
       "mobiliado": "parcial",
       "nota_qualidade": 6,
       "veredito": "talvez",
-      "pros": ["mais barata Garopaba", "quintal gramado", "aceita pet", "anual"],
-      "contras": ["interior escuro/compacto", "bangalô de madeira", "'360 m² construídos' parece erro"],
+      "pros": [
+        "mais barata Garopaba",
+        "quintal gramado",
+        "aceita pet",
+        "anual"
+      ],
+      "contras": [
+        "interior escuro/compacto",
+        "bangalô de madeira",
+        "'360 m² construídos' parece erro"
+      ],
       "analise": "Bangalô econômico com quintal. Interior limitado. Boa porta de entrada se o orçamento apertar e a visita confirmar condição.",
       "foto": "images/gar-olx-campoduna.jpg",
+      "status": "ativo",
+      "visto_em": "2026-11-09",
+      "adicionado_em": "2026-11-09"
+    },
+    {
+      "id": "pic-olx-1528599147",
+      "cidade": "Balneário Piçarras",
+      "bairro": "Itacolomi",
+      "titulo": "Casa 2 quartos com amplo terreno — OLX 1528599147",
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/casa-com-2-quartos-suite-e-amplo-terreno-para-locacao-anaul-no-itacolomi-balneario-picar-1528599147",
+      "fonte": "OLX",
+      "aluguel": 2750,
+      "taxas": {
+        "iptu": 92.68,
+        "lixo": 49.92,
+        "condo": null,
+        "seguro": null,
+        "observacao": ""
+      },
+      "total_estimado": 2892.6,
+      "quartos": 2,
+      "banheiros": 2,
+      "area_m2": 70,
+      "anual": "sim",
+      "disponibilidade": "",
+      "praia_declarada": "",
+      "pets": "",
+      "mobiliado": "",
+      "nota_qualidade": 7,
+      "veredito": "talvez",
+      "pros": [
+        "terreno amplo",
+        "suíte",
+        "muitos vagas",
+        "muros altos",
+        "rua com pavers",
+        "anual"
+      ],
+      "contras": [
+        "acabamento básico",
+        "pátio de brita",
+        "possível umidade (painel de forro / descoloração)",
+        "prédios vizinhos"
+      ],
+      "analise": "Casa térrea com grande pátio de brita murado. Acabamento simples e cômodos vazios. Há abertura escura/painel de forro faltando e mancha na parede — checar vazamento/umidade na visita.",
+      "foto": "images/pic-olx-terreno.jpg",
+      "status": "ativo",
+      "visto_em": "2026-11-09",
+      "adicionado_em": "2026-11-09"
+    },
+    {
+      "id": "pic-olx-1549290862",
+      "cidade": "Balneário Piçarras",
+      "bairro": "Itacolomi",
+      "titulo": "Casa nova 2 quartos (1 suíte) — OLX 1549290862",
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/casa-nova-para-locacao-com-2-quartos-sendo-1-suite-no-bairro-itacolomi-1549290862",
+      "fonte": "OLX",
+      "aluguel": 3196,
+      "taxas": {
+        "iptu": 73.6,
+        "lixo": 49.92,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Sem mobília"
+      },
+      "total_estimado": 3319.52,
+      "quartos": 2,
+      "banheiros": 2,
+      "area_m2": 70,
+      "anual": "sim",
+      "disponibilidade": "",
+      "praia_declarada": "",
+      "pets": "",
+      "mobiliado": "não",
+      "nota_qualidade": 7.5,
+      "veredito": "visitar",
+      "pros": [
+        "aparência nova",
+        "ambientes claros",
+        "banheiros modernos",
+        "1 vaga coberta",
+        "anual"
+      ],
+      "contras": [
+        "sem mobília",
+        "área externa só passagens de brita estreitas",
+        "abertura de cabo inacabada na parede"
+      ],
+      "analise": "Casa nova e limpa, boa luz natural. Pouco espaço externo útil (só corredores de brita). Confirmar acabamentos finais e se a abertura de cabo será fechada.",
+      "foto": "images/pic-olx-nova.jpg",
+      "status": "ativo",
+      "visto_em": "2026-11-09",
+      "adicionado_em": "2026-11-09"
+    },
+    {
+      "id": "pic-olx-1541525867",
+      "cidade": "Balneário Piçarras",
+      "bairro": "Itacolomi",
+      "titulo": "Casa mobiliada 2 suítes — OLX 1541525867",
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/casa-mobiliada-disponivel-para-locacao-anual-no-bairro-itacolomi-balneario-picarras-cod-1541525867",
+      "fonte": "OLX",
+      "aluguel": 3350,
+      "taxas": {
+        "iptu": 89.6,
+        "lixo": 49.92,
+        "condo": null,
+        "seguro": 418.75,
+        "observacao": "Seguro-fiança listado R$418,75/mês no anúncio — total passa do teto"
+      },
+      "total_estimado": 3908.27,
+      "quartos": 2,
+      "banheiros": 2,
+      "area_m2": 80,
+      "anual": "sim",
+      "disponibilidade": "",
+      "praia_declarada": "1.000 m",
+      "pets": "",
+      "mobiliado": "sim",
+      "nota_qualidade": 7.5,
+      "veredito": "talvez",
+      "pros": [
+        "mobiliada",
+        "2 suítes",
+        "AC",
+        "pátio com churrasqueira",
+        "anual",
+        "1.000 m da praia (declarado)"
+      ],
+      "contras": [
+        "total ~R$3.908 com seguro-fiança",
+        "compacta",
+        "escada"
+      ],
+      "analise": "Boa casa mobiliada, mas o seguro-fiança listado estoura o orçamento de R$3.500. Só faz sentido se negociar outra garantia (caução/fiador) sem essa parcela mensal.",
+      "foto": "images/pic-olx-mobiliada.jpg",
+      "status": "ativo",
+      "visto_em": "2026-11-09",
+      "adicionado_em": "2026-11-09"
+    },
+    {
+      "id": "pic-olx-1550301029",
+      "cidade": "Balneário Piçarras",
+      "bairro": "Centro",
+      "titulo": "Casa com quintal e piscina — OLX 1550301029",
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/casa-disponivel-para-locacao-no-centro-de-balneario-picarras-sc-cod-24941-1550301029",
+      "fonte": "OLX",
+      "aluguel": 3000,
+      "taxas": {
+        "iptu": 344.77,
+        "lixo": 49.92,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Seguro incêndio à parte; IPTU parece mensal no anúncio"
+      },
+      "total_estimado": 3394.69,
+      "quartos": 2,
+      "banheiros": 2,
+      "area_m2": 80,
+      "anual": "não confirmado",
+      "disponibilidade": "",
+      "praia_declarada": "200 m",
+      "pets": "confirmar",
+      "mobiliado": "sim",
+      "nota_qualidade": 7.5,
+      "veredito": "visitar",
+      "pros": [
+        "200 m da praia (declarado)",
+        "quintal gramado grande",
+        "churrasqueira coberta",
+        "4 vagas",
+        "mobiliada"
+      ],
+      "contras": [
+        "anual não confirmado",
+        "piscina parece sem cerca (risco criança)",
+        "cozinha mais antiga",
+        "IPTU alto"
+      ],
+      "analise": "Ótimo quintal arborizado perto da praia. Piscina sem proteção aparente exige atenção de segurança. Confirmar se o contrato é anual sem saída no verão e se aceita pet.",
+      "foto": "images/pic-olx-centro-pool.jpg",
+      "status": "ativo",
+      "visto_em": "2026-11-09",
+      "adicionado_em": "2026-11-09"
+    },
+    {
+      "id": "pic-olx-1547577411",
+      "cidade": "Balneário Piçarras",
+      "bairro": "Itacolomi",
+      "titulo": "Casa mobiliada Itacolomi — OLX 1547577411",
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/casa-disponivel-para-locacao-no-bairro-itacolomi-em-balneario-picarras-sc-cod-24423-1547577411",
+      "fonte": "OLX",
+      "aluguel": 2700,
+      "taxas": {
+        "iptu": 83,
+        "lixo": 49.92,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Também anunciada para venda"
+      },
+      "total_estimado": 2832.92,
+      "quartos": 2,
+      "banheiros": 2,
+      "area_m2": 90,
+      "anual": "não confirmado",
+      "disponibilidade": "",
+      "praia_declarada": "",
+      "pets": "",
+      "mobiliado": "sim",
+      "nota_qualidade": 8,
+      "veredito": "visitar",
+      "pros": [
+        "limpa e clara",
+        "bons banheiros",
+        "fundo amplo privativo",
+        "rua pavimentada",
+        "mobiliada",
+        "bom preço"
+      ],
+      "contras": [
+        "anual não confirmado",
+        "também à venda (risco de venda durante contrato)",
+        "pátio de brita"
+      ],
+      "analise": "Uma das melhores OLX de Piçarras em custo-benefício visual. Confirmar contrato anual estável e que a venda não force saída antecipada.",
+      "foto": "images/pic-olx-itacolomi-24423.jpg",
       "status": "ativo",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09"
