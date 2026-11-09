@@ -24,6 +24,12 @@
 
   <main class="wrap">
     <section class="filters" aria-label="Filtros">
+      <label>Vista
+        <select id="viewMode">
+          <option value="ranking" selected>Ranking geral</option>
+          <option value="cards">Cards</option>
+        </select>
+      </label>
       <label>Cidade
         <select id="cidade">
           <option value="">Todas</option>
@@ -62,6 +68,7 @@
       </label>
       <label>Ordenar
         <select id="sort">
+          <option value="ranking" selected>Ranking (nota)</option>
           <option value="custo">Custo-benefício</option>
           <option value="total">Menor total</option>
           <option value="nota">Maior nota</option>
@@ -72,7 +79,8 @@
       <span class="note" id="count"></span>
     </section>
 
-    <section id="grid" class="grid" aria-live="polite"></section>
+    <section id="ranking" class="ranking" aria-live="polite"></section>
+    <section id="grid" class="grid" hidden aria-live="polite"></section>
 
     <section class="tips">
       <h2>Dicas para fechar até janeiro</h2>

@@ -25,13 +25,19 @@ async function boot() {
   document.getElementById("minQuartos").addEventListener("change", render);
   document.getElementById("sort").addEventListener("change", render);
   document.getElementById("marFilter").addEventListener("change", render);
+  document.getElementById("viewMode").addEventListener("change", () => {
+    const v = document.getElementById("viewMode").value;
+    if (v === "ranking") document.getElementById("sort").value = "ranking";
+    render();
+  });
   document.getElementById("reset").addEventListener("click", () => {
     document.getElementById("cidade").value = "";
     document.getElementById("veredito").value = "";
     document.getElementById("maxTotal").value = "";
     document.getElementById("minQuartos").value = "";
-    document.getElementById("sort").value = "custo";
+    document.getElementById("sort").value = "ranking";
     document.getElementById("marFilter").value = "";
+    document.getElementById("viewMode").value = "ranking";
     render();
   });
   render();
@@ -69,7 +75,14 @@ function filtered() {
   if (marFilter === "1000") list = list.filter(c => c.distancia_mar_metros != null && c.distancia_mar_metros <= 1000);
   list.sort((a,b) => {
     if (sort === "total") return (a.total_estimado||9e9) - (b.total_estimado||9e9);
-    if (sort === "nota") return (b.nota_qualidade||0) - (a.nota_qualidade||0);
+    if (sort === "nota" || sort === "ranking") {
+      const ns = (b.nota_qualidade||0) - (a.nota_qualidade||0);
+      if (ns) return ns;
+      const order = {visitar:0, talvez:1, pular:2};
+      const vs = (order[a.veredito]??9) - (order[b.veredito]??9);
+      if (vs) return vs;
+      return (a.total_estimado||9e9) - (b.total_estimado||9e9);
+    }
     if (sort === "mar") {
       const am = a.distancia_mar_metros, bm = b.distancia_mar_metros;
       if (am == null && bm == null) return 0;
@@ -83,6 +96,29 @@ function filtered() {
     return cb - ca;
   });
   return list;
+}
+
+
+function rankRow(c, pos) {
+  const muted = c.veredito === "pular" ? " muted" : "";
+  const dist = c.distancia_mar ? c.distancia_mar : "não informada";
+  const razao = c.razao || (c.analise || "").split(/(?<=[.!?])\s+/)[0] || c.titulo;
+  return `<article class="rank-row${muted}">
+    <div class="rank-pos">#${pos}</div>
+    <div class="rank-score"><strong>${c.nota_qualidade}</strong><span>/10</span></div>
+    <div class="rank-main">
+      <div class="rank-top">
+        <span class="badge ${c.veredito}">${c.veredito}</span>
+        <span class="rank-place">${c.cidade} · ${val(c.bairro)}</span>
+      </div>
+      <div class="rank-title">${c.titulo}</div>
+      <div class="rank-meta">${money(c.total_estimado)} · ${val(c.quartos)} q · 🌊 ${dist}</div>
+      <div class="rank-reason">${razao}</div>
+    </div>
+    <div class="rank-actions">
+      <a href="${c.url}" target="_blank" rel="noopener">Anúncio</a>
+    </div>
+  </article>`;
 }
 
 function card(c) {
@@ -135,9 +171,25 @@ function card(c) {
 function render() {
   const list = filtered();
   document.getElementById("count").textContent = `${list.length} casa(s)`;
-  document.getElementById("grid").innerHTML = list.length
-    ? list.map(card).join("")
-    : `<div class="empty">Nenhuma casa com esses filtros.</div>`;
+  const view = document.getElementById("viewMode").value;
+  const rankingEl = document.getElementById("ranking");
+  const gridEl = document.getElementById("grid");
+  if (view === "ranking") {
+    rankingEl.hidden = false;
+    gridEl.hidden = true;
+    rankingEl.innerHTML = list.length
+      ? `<div class="ranking-head"><h2>Ranking geral</h2><p class="note">Ordenado por nota (maior → menor). Empate: visitar → talvez → pular, depois menor total.</p></div>` +
+        list.map((c,i) => rankRow(c, i+1)).join("")
+      : `<div class="empty">Nenhuma casa com esses filtros.</div>`;
+    gridEl.innerHTML = "";
+  } else {
+    rankingEl.hidden = true;
+    gridEl.hidden = false;
+    rankingEl.innerHTML = "";
+    gridEl.innerHTML = list.length
+      ? list.map(card).join("")
+      : `<div class="empty">Nenhuma casa com esses filtros.</div>`;
+  }
 }
 
 boot();
