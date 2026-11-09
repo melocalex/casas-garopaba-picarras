@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-09T18:05:00-03:00",
+  "atualizado_em": "2026-11-09T18:45:00-03:00",
   "fuso": "America/Sao_Paulo",
   "casas": [
     {
@@ -61,7 +61,8 @@
         "images/pic-loc010/10.jpg",
         "images/pic-loc010/11.jpg",
         "images/pic-loc010/12.jpg"
-      ]
+      ],
+      "mobilia": "semimobiliada"
     },
     {
       "id": "pic-loc061",
@@ -103,7 +104,7 @@
       ],
       "analise": "Sobrado geminado limpo e pronto para morar. Pátio traseiro com churrasqueira é funcional, mas sem área verde. Melhor valor perto da praia em Piçarras.",
       "foto": "images/pic-loc061.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": "450 m da praia (anúncio)",
@@ -122,7 +123,8 @@
         "images/pic-loc061/10.jpg",
         "images/pic-loc061/11.jpg",
         "images/pic-loc061/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "pic-cli292",
@@ -172,7 +174,8 @@
       "razao": "Casa moderna bem cuidada, sem mofo aparente.",
       "photos": [
         "images/pic-cli292/01.jpg"
-      ]
+      ],
+      "mobilia": "semimobiliada"
     },
     {
       "id": "pic-loc055",
@@ -212,7 +215,7 @@
       ],
       "analise": "Opção econômica funcional. Exterior com desgaste típico; banheiro melhor que o resto. Só vale se o orçamento for prioridade absoluta.",
       "foto": "images/pic-loc055.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
@@ -231,7 +234,8 @@
         "images/pic-loc055/10.jpg",
         "images/pic-loc055/11.jpg",
         "images/pic-loc055/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "pic-maravista",
@@ -273,7 +277,7 @@
       ],
       "analise": "Melhor acabamento da lista Piçarras, mas IPTU+taxas provavelmente estouram R$3.500. Confirmar pacote de taxas antes de priorizar. Endereço: Rua Serena, 724-A.",
       "foto": "images/pic-maravista.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": "700 m do mar (anúncio)",
@@ -292,7 +296,8 @@
         "images/pic-maravista/10.jpg",
         "images/pic-maravista/11.jpg",
         "images/pic-maravista/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "pic-dez2500",
@@ -353,7 +358,8 @@
         "images/pic-dez2500/10.jpg",
         "images/pic-dez2500/11.jpg",
         "images/pic-dez2500/12.jpg"
-      ]
+      ],
+      "mobilia": "semimobiliada"
     },
     {
       "id": "pic-ca0113",
@@ -413,7 +419,8 @@
         "images/pic-ca0113/10.jpg",
         "images/pic-ca0113/11.jpg",
         "images/pic-ca0113/12.jpg"
-      ]
+      ],
+      "mobilia": "semimobiliada"
     },
     {
       "id": "pic-ca0052",
@@ -438,7 +445,7 @@
       "disponibilidade": "",
       "praia_declarada": null,
       "pets": "não",
-      "mobiliado": "",
+      "mobiliado": "não informado",
       "nota_qualidade": 5.0,
       "veredito": "pular",
       "pros": [
@@ -472,7 +479,8 @@
         "images/pic-ca0052/10.jpg",
         "images/pic-ca0052/11.jpg",
         "images/pic-ca0052/12.jpg"
-      ]
+      ],
+      "mobilia": "não informado"
     },
     {
       "id": "pic-ca0110",
@@ -511,7 +519,7 @@
       ],
       "analise": "Quintal atrativo, mas fotos mostram umidade ascendente forte no corredor externo — risco alto para família. Pular salvo inspeção presencial limpar a dúvida.",
       "foto": "images/pic-ca0110.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
@@ -530,7 +538,8 @@
         "images/pic-ca0110/10.jpg",
         "images/pic-ca0110/11.jpg",
         "images/pic-ca0110/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "gar-centro",
@@ -555,7 +564,7 @@
       "disponibilidade": "",
       "praia_declarada": null,
       "pets": "",
-      "mobiliado": "",
+      "mobiliado": "não",
       "nota_qualidade": 7.5,
       "veredito": "visitar",
       "pros": [
@@ -590,7 +599,8 @@
         "images/gar-centro/10.jpg",
         "images/gar-centro/11.jpg",
         "images/gar-centro/12.jpg"
-      ]
+      ],
+      "mobilia": "sem móveis"
     },
     {
       "id": "gar-ambrosio",
@@ -649,7 +659,8 @@
         "images/gar-ambrosio/10.jpg",
         "images/gar-ambrosio/11.jpg",
         "images/gar-ambrosio/12.jpg"
-      ]
+      ],
+      "mobilia": "semimobiliada"
     },
     {
       "id": "gar-franco",
@@ -710,7 +721,8 @@
         "images/gar-franco/10.jpg",
         "images/gar-franco/11.jpg",
         "images/gar-franco/12.jpg"
-      ]
+      ],
+      "mobilia": "semimobiliada"
     },
     {
       "id": "gar-ferrugem",
@@ -751,7 +763,7 @@
       ],
       "analise": "Única casa Garopaba com distância de praia tão curta declarada. Ambiente familiar em condomínio pequeno. Confirmar regras do condomínio e disponibilidade janeiro.",
       "foto": "images/gar-ferrugem.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": "menos de 20 m do mar (anúncio)",
@@ -770,7 +782,8 @@
         "images/gar-ferrugem/10.jpg",
         "images/gar-ferrugem/11.jpg",
         "images/gar-ferrugem/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "gar-encantada",
@@ -811,7 +824,7 @@
       ],
       "analise": "Casa no segundo piso sobre comércio na SC-434. Boa metragem familiar, mas ruído comercial e taxas extras a confirmar.",
       "foto": "images/gar-encantada.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
@@ -823,7 +836,8 @@
         "images/gar-encantada/03.jpg",
         "images/gar-encantada/04.jpg",
         "images/gar-encantada/05.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "gar-villa",
@@ -848,7 +862,7 @@
       "disponibilidade": "",
       "praia_declarada": null,
       "pets": "",
-      "mobiliado": "",
+      "mobiliado": "sim",
       "nota_qualidade": 5.0,
       "veredito": "talvez",
       "pros": [
@@ -863,7 +877,7 @@
       ],
       "analise": "Barata e anual no papel, mas evidência visual fraca. Só avançar após ver fotos reais ou visita.",
       "foto": "images/gar-villa.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
@@ -879,7 +893,8 @@
         "images/gar-villa/07.jpg",
         "images/gar-villa/08.jpg",
         "images/gar-villa/09.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "gar-alexia",
@@ -904,7 +919,7 @@
       "disponibilidade": "",
       "praia_declarada": "500 m da praia do centro",
       "pets": "",
-      "mobiliado": "",
+      "mobiliado": "não informado",
       "nota_qualidade": 5.0,
       "veredito": "talvez",
       "pros": [
@@ -927,7 +942,8 @@
       "photos": [
         "images/gar-alexia/01.jpg",
         "images/gar-alexia/02.jpg"
-      ]
+      ],
+      "mobilia": "não informado"
     },
     {
       "id": "gar-olx-ferrugem",
@@ -969,7 +985,7 @@
       ],
       "analise": "Sobrado entre palmeiras com localização forte. Interior antigo (piso cerâmico, paredes amarelas, forro de madeira); um quarto apertado. Bom se priorizar praia e aceitar acabamento antigo.",
       "foto": "images/gar-olx-ferrugem.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": "150 m / pé na areia (anúncio)",
@@ -988,7 +1004,8 @@
         "images/gar-olx-ferrugem/10.jpg",
         "images/gar-olx-ferrugem/11.jpg",
         "images/gar-olx-ferrugem/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "gar-olx-centro",
@@ -1048,7 +1065,8 @@
         "images/gar-olx-centro/10.jpg",
         "images/gar-olx-centro/11.jpg",
         "images/gar-olx-centro/12.jpg"
-      ]
+      ],
+      "mobilia": "semimobiliada"
     },
     {
       "id": "gar-olx-macacu",
@@ -1110,7 +1128,8 @@
         "images/gar-olx-macacu/10.jpg",
         "images/gar-olx-macacu/11.jpg",
         "images/gar-olx-macacu/12.jpg"
-      ]
+      ],
+      "mobilia": "sem móveis"
     },
     {
       "id": "gar-olx-palhocinha",
@@ -1135,7 +1154,7 @@
       "disponibilidade": "15/11/2026",
       "praia_declarada": null,
       "pets": "sim",
-      "mobiliado": "",
+      "mobiliado": "sim",
       "nota_qualidade": 8.0,
       "veredito": "visitar",
       "pros": [
@@ -1152,7 +1171,7 @@
       ],
       "analise": "Casa clara e moderna com gramado pequeno cercado. Forte candidata em Garopaba pelo custo-benefício e data de liberação.",
       "foto": "images/gar-olx-palhocinha.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": null,
@@ -1171,7 +1190,8 @@
         "images/gar-olx-palhocinha/10.jpg",
         "images/gar-olx-palhocinha/11.jpg",
         "images/gar-olx-palhocinha/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada (pelas fotos, confirmar)"
     },
     {
       "id": "gar-olx-campoduna",
@@ -1196,7 +1216,7 @@
       "disponibilidade": "",
       "praia_declarada": null,
       "pets": "sim",
-      "mobiliado": "parcial",
+      "mobiliado": "semi",
       "nota_qualidade": 6.0,
       "veredito": "talvez",
       "pros": [
@@ -1228,7 +1248,8 @@
         "images/gar-olx-campoduna/07.jpg",
         "images/gar-olx-campoduna/08.jpg",
         "images/gar-olx-campoduna/09.jpg"
-      ]
+      ],
+      "mobilia": "semimobiliada"
     },
     {
       "id": "pic-olx-1528599147",
@@ -1253,7 +1274,7 @@
       "disponibilidade": "",
       "praia_declarada": null,
       "pets": "",
-      "mobiliado": "",
+      "mobiliado": "não informado",
       "nota_qualidade": 7.0,
       "veredito": "talvez",
       "pros": [
@@ -1291,7 +1312,8 @@
         "images/pic-olx-1528599147/10.jpg",
         "images/pic-olx-1528599147/11.jpg",
         "images/pic-olx-1528599147/12.jpg"
-      ]
+      ],
+      "mobilia": "não informado"
     },
     {
       "id": "pic-olx-1549290862",
@@ -1352,7 +1374,8 @@
         "images/pic-olx-1549290862/10.jpg",
         "images/pic-olx-1549290862/11.jpg",
         "images/pic-olx-1549290862/12.jpg"
-      ]
+      ],
+      "mobilia": "sem móveis"
     },
     {
       "id": "pic-olx-1541525867",
@@ -1395,7 +1418,7 @@
       ],
       "analise": "Boa casa mobiliada, mas o seguro-fiança listado estoura o orçamento de R$3.500. Só faz sentido se negociar outra garantia (caução/fiador) sem essa parcela mensal.",
       "foto": "images/pic-olx-1541525867.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": "1.000 m da praia (anúncio)",
@@ -1414,7 +1437,8 @@
         "images/pic-olx-1541525867/10.jpg",
         "images/pic-olx-1541525867/11.jpg",
         "images/pic-olx-1541525867/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "pic-olx-1550301029",
@@ -1457,7 +1481,7 @@
       ],
       "analise": "Ótimo quintal arborizado perto da praia. Piscina sem proteção aparente exige atenção de segurança. Confirmar se o contrato é anual sem saída no verão e se aceita pet.",
       "foto": "images/pic-olx-1550301029.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "distancia_mar": "200 m da praia (anúncio)",
@@ -1476,7 +1500,8 @@
         "images/pic-olx-1550301029/10.jpg",
         "images/pic-olx-1550301029/11.jpg",
         "images/pic-olx-1550301029/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "pic-olx-1547577411",
@@ -1527,7 +1552,8 @@
       "razao": "Anúncio removido no OLX — provavelmente alugada.",
       "photos": [
         "images/pic-olx-1547577411/01.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "pdl-lili-49188",
@@ -1586,7 +1612,8 @@
         "images/pdl-lili-49188/10.jpg",
         "images/pdl-lili-49188/11.jpg",
         "images/pdl-lili-49188/12.jpg"
-      ]
+      ],
+      "mobilia": "sem móveis"
     },
     {
       "id": "pdl-viamares-1200",
@@ -1628,7 +1655,7 @@
       ],
       "analise": "Casa 2q em Praia de Leste anunciada como locação mensal a R$1.200, a 1000 m da praia. Acabamento simples e mobiliada. Melhor custo da rodada em Pontal — vale visitar para confirmar se não é temporada disfarçada e quais taxas cabem além do aluguel.",
       "foto": "images/pdl-viamares-1200.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "razao": "Casa 2q em Praia de Leste anunciada como locação mensal a R$1.200, a 1000 m da praia.",
@@ -1645,7 +1672,8 @@
         "images/pdl-viamares-1200/10.jpg",
         "images/pdl-viamares-1200/11.jpg",
         "images/pdl-viamares-1200/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "pdl-grajau-1900",
@@ -1703,7 +1731,8 @@
         "images/pdl-grajau-1900/10.jpg",
         "images/pdl-grajau-1900/11.jpg",
         "images/pdl-grajau-1900/12.jpg"
-      ]
+      ],
+      "mobilia": "sem móveis"
     },
     {
       "id": "pdl-olx-1541676469",
@@ -1728,7 +1757,7 @@
       "distancia_mar": "aproximadamente 300 m do mar (anúncio)",
       "distancia_mar_metros": 300,
       "pets": "não informado",
-      "mobiliado": "sim (fotos)",
+      "mobiliado": "sim",
       "nota_qualidade": 7.0,
       "veredito": "visitar",
       "pros": [
@@ -1745,7 +1774,7 @@
       ],
       "analise": "Sobrado limpo/claro em Shangri-lá, ~300 m do mar. Leve umidade perto da churrasqueira/tanque. Locação mensal — confirme se não sobe no verão. Bom candidato com ressalvas de bairro vizinho.",
       "foto": "images/pdl-olx-1541676469.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "razao": "Sobrado limpo/claro em Shangri-lá, ~300 m do mar.",
@@ -1762,7 +1791,8 @@
         "images/pdl-olx-1541676469/10.jpg",
         "images/pdl-olx-1541676469/11.jpg",
         "images/pdl-olx-1541676469/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada (pelas fotos, confirmar)"
     },
     {
       "id": "pdl-olx-1539913297",
@@ -1809,7 +1839,8 @@
       "photos": [
         "images/pdl-olx-1539913297/01.jpg",
         "images/pdl-olx-1539913297/02.jpg"
-      ]
+      ],
+      "mobilia": "não informado"
     },
     {
       "id": "ita-lopes-reo639909",
@@ -1867,7 +1898,8 @@
         "images/ita-lopes-reo639909/10.jpg",
         "images/ita-lopes-reo639909/11.jpg",
         "images/ita-lopes-reo639909/12.jpg"
-      ]
+      ],
+      "mobilia": "sem móveis"
     },
     {
       "id": "ita-buskaza-2600",
@@ -1927,7 +1959,8 @@
         "images/ita-buskaza-2600/10.jpg",
         "images/ita-buskaza-2600/11.jpg",
         "images/ita-buskaza-2600/12.jpg"
-      ]
+      ],
+      "mobilia": "sem móveis"
     },
     {
       "id": "ita-sonhar-cacentro02",
@@ -1986,7 +2019,8 @@
         "images/ita-sonhar-cacentro02/10.jpg",
         "images/ita-sonhar-cacentro02/11.jpg",
         "images/ita-sonhar-cacentro02/12.jpg"
-      ]
+      ],
+      "mobilia": "sem móveis"
     },
     {
       "id": "ita-sperandio-3000",
@@ -2011,7 +2045,7 @@
       "distancia_mar": "aproximadamente 50 m da praia (anúncio)",
       "distancia_mar_metros": 50,
       "pets": "não informado",
-      "mobiliado": "sim (fixixa)",
+      "mobiliado": "sim",
       "nota_qualidade": 7.5,
       "veredito": "visitar",
       "pros": [
@@ -2027,7 +2061,7 @@
       ],
       "analise": "Casa térrea grande mobiliada perto da praia (~50 m no anúncio) e do comércio. Quintal amplo. Melhor “pé na areia” da rodada Itapoá dentro do teto — visitar e confirmar taxas + se o contrato cobre o verão.",
       "foto": "images/ita-sperandio-3000.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "razao": "Casa térrea grande mobiliada perto da praia (~50 m no anúncio) e do comércio.",
@@ -2044,7 +2078,8 @@
         "images/ita-sperandio-3000/10.jpg",
         "images/ita-sperandio-3000/11.jpg",
         "images/ita-sperandio-3000/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "ita-olx-1550041340",
@@ -2088,7 +2123,7 @@
       ],
       "analise": "Casa nova em Barra do Saí (vizinho), total ~R$3.073 c/ lixo+seguro-fiança. Gramado privado, boa qualidade. Prioridade se aceitar o balneário vizinho. (Análise com 4–5 fotos do anúncio.)",
       "foto": "images/ita-olx-1550041340.jpg",
-      "status": "ativo",
+      "status": "descartada_mobiliada",
       "visto_em": "2026-11-09",
       "adicionado_em": "2026-11-09",
       "razao": "Casa nova em Barra do Saí (vizinho), total ~R$3.073 c/ lixo+seguro-fiança.",
@@ -2105,7 +2140,8 @@
         "images/ita-olx-1550041340/10.jpg",
         "images/ita-olx-1550041340/11.jpg",
         "images/ita-olx-1550041340/12.jpg"
-      ]
+      ],
+      "mobilia": "mobiliada"
     },
     {
       "id": "ita-olx-1542275842",
@@ -2166,7 +2202,8 @@
         "images/ita-olx-1542275842/11.jpg",
         "images/ita-olx-1542275842/12.jpg"
       ],
-      "url_alt": "https://www.sonharimoveisitapoa.com.br/imovel/4397328/casa-locacao"
+      "url_alt": "https://www.sonharimoveisitapoa.com.br/imovel/4397328/casa-locacao",
+      "mobilia": "sem móveis"
     },
     {
       "id": "ita-olx-1549587952",
@@ -2217,7 +2254,8 @@
         "images/ita-olx-1549587952/02.jpg",
         "images/ita-olx-1549587952/03.jpg",
         "images/ita-olx-1549587952/04.jpg"
-      ]
+      ],
+      "mobilia": "não informado"
     },
     {
       "id": "ita-olx-1547884546",
@@ -2269,7 +2307,8 @@
         "images/ita-olx-1547884546/06.jpg",
         "images/ita-olx-1547884546/07.jpg",
         "images/ita-olx-1547884546/08.jpg"
-      ]
+      ],
+      "mobilia": "sem móveis"
     },
     {
       "id": "ita-olx-1544812873",
@@ -2322,7 +2361,8 @@
         "images/ita-olx-1544812873/05.jpg",
         "images/ita-olx-1544812873/06.jpg",
         "images/ita-olx-1544812873/07.jpg"
-      ]
+      ],
+      "mobilia": "não informado"
     },
     {
       "id": "ita-sonhar-imperador",
@@ -2380,7 +2420,8 @@
       ],
       "status": "ativo",
       "visto_em": "2026-11-09",
-      "adicionado_em": "2026-11-09"
+      "adicionado_em": "2026-11-09",
+      "mobilia": "não informado"
     }
   ],
   "cidades": [

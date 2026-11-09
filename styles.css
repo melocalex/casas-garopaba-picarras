@@ -388,3 +388,18 @@ footer {
   .rank-thumb { width: 72px; height: 56px; }
   .lb-prev, .lb-next { width: 44px; height: 44px; }
 }
+
+
+.badge-mob {
+  display: inline-block;
+  font-size: .75rem;
+  font-weight: 700;
+  padding: .2rem .5rem;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+}
+.badge-mob.mob { background: #fee2e2; color: #991b1b; border-color: #fecaca; }
+.badge-mob.semi { background: #ffedd5; color: #9a3412; border-color: #fed7aa; }
+.badge-mob.vazia { background: #dcfce7; color: #166534; border-color: #bbf7d0; }
+.badge-mob.ni { background: #f3f4f6; color: #4b5563; border-color: #e5e7eb; }
+.descartadas-mob { border-top: 1px dashed #fca5a5; padding-top: 1rem; }

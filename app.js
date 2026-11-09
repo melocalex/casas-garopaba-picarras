@@ -79,7 +79,7 @@ async function boot() {
   casas = data.casas || [];
   document.getElementById("atualizado").textContent = fmtDate(data.atualizado_em);
   renderStats(casas);
-  ["cidade", "veredito", "minQuartos", "marFilter", "sort", "escolhaFilter", "viewMode"].forEach((id) => {
+  ["cidade", "veredito", "minQuartos", "marFilter", "sort", "escolhaFilter", "mobiliaFilter", "viewMode"].forEach((id) => {
     document.getElementById(id).addEventListener("change", () => {
       if (id === "viewMode" && document.getElementById("viewMode").value === "ranking") {
         document.getElementById("sort").value = "ranking";
@@ -97,6 +97,7 @@ async function boot() {
     document.getElementById("marFilter").value = "";
     document.getElementById("viewMode").value = "ranking";
     document.getElementById("escolhaFilter").value = "hide_nao";
+    document.getElementById("mobiliaFilter").value = "ok";
     render();
   });
   document.getElementById("exportEscolhas").addEventListener("click", exportEscolhas);
@@ -165,7 +166,14 @@ function filtered() {
   const marFilter = document.getElementById("marFilter").value;
   const escolhaFilter = document.getElementById("escolhaFilter").value;
   const sort = document.getElementById("sort").value;
-  let list = casas.filter(c => c.status === "ativo");
+  const mobiliaFilter = document.getElementById("mobiliaFilter").value;
+  let list = casas.filter(c => {
+    if (c.status === "sumiu" || c.status === "alugado") return false;
+    if (c.status === "descartada_mobiliada") {
+      return mobiliaFilter === "" || mobiliaFilter === "mob";
+    }
+    return c.status === "ativo";
+  });
   if (cidade) list = list.filter(c => c.cidade === cidade);
   if (veredito) list = list.filter(c => c.veredito === veredito);
   list = list.filter(c => (c.total_estimado ?? Infinity) <= maxTotal);
@@ -178,6 +186,11 @@ function filtered() {
   if (escolhaFilter === "nao") list = list.filter(c => getEscolha(c.id) === "nao");
   if (escolhaFilter === "pendente") list = list.filter(c => !getEscolha(c.id));
   if (escolhaFilter === "hide_nao") list = list.filter(c => getEscolha(c.id) !== "nao");
+  if (mobiliaFilter === "ok") list = list.filter(c => !isMobiliada(c));
+  if (mobiliaFilter === "semi") list = list.filter(c => mobiliaOf(c) === "semimobiliada");
+  if (mobiliaFilter === "vazia") list = list.filter(c => mobiliaOf(c) === "sem móveis");
+  if (mobiliaFilter === "ni") list = list.filter(c => mobiliaOf(c) === "não informado");
+  if (mobiliaFilter === "mob") list = list.filter(c => isMobiliada(c));
   list.sort((a,b) => {
     if (sort === "total") return (a.total_estimado||9e9) - (b.total_estimado||9e9);
     if (sort === "nota" || sort === "ranking") {
@@ -202,6 +215,21 @@ function filtered() {
   return list;
 }
 
+function mobiliaOf(c) {
+  return c.mobilia || "não informado";
+}
+function isMobiliada(c) {
+  const m = mobiliaOf(c);
+  return m === "mobiliada" || m.startsWith("mobiliada (");
+}
+function mobiliaBadge(c) {
+  const m = mobiliaOf(c);
+  let cls = "ni";
+  if (m === "mobiliada" || m.startsWith("mobiliada (")) cls = "mob";
+  else if (m === "semimobiliada") cls = "semi";
+  else if (m === "sem móveis") cls = "vazia";
+  return `<span class="badge-mob ${cls}" title="Mobília">${m}</span>`;
+}
 function housePhotos(c) {
   if (Array.isArray(c.photos) && c.photos.length) return c.photos;
   if (c.foto) return [c.foto];
@@ -231,6 +259,7 @@ function rankRow(c, pos, opts={}) {
     <div class="rank-main">
       <div class="rank-top">
         ${badge}
+        ${mobiliaBadge(c)}
         <span class="rank-place">${c.cidade} · ${val(c.bairro)}</span>
       </div>
       <div class="rank-title">${c.titulo}</div>
@@ -269,6 +298,7 @@ function card(c) {
         </div>
         <span class="badge ${c.veredito}">${c.veredito}</span>
       </div>
+      ${mobiliaBadge(c)}
       <div class="sea ${c.distancia_mar ? 'has' : 'missing'}">${c.distancia_mar ? `🌊 ${c.distancia_mar}` : '🌊 Distância do mar: não informada'}</div>
       ${escolhaButtons(c.id)}
       <div class="nums">
@@ -310,9 +340,14 @@ function render() {
   const rankingEl = document.getElementById("ranking");
   const gridEl = document.getElementById("grid");
   const saidas = casas.filter(c => c.status === "sumiu" || c.status === "alugado");
-  const saidasHtml = saidas.length
+  const mobDiscard = casas.filter(c => c.status === "descartada_mobiliada" || isMobiliada(c));
+  // avoid dup if already in filtered list when showing mob
+  const showMobSection = document.getElementById("mobiliaFilter").value === "ok" || document.getElementById("mobiliaFilter").value === "semi" || document.getElementById("mobiliaFilter").value === "vazia" || document.getElementById("mobiliaFilter").value === "ni";
+  const saidasHtml = (saidas.length
     ? `<section class="sairam"><h2>Saíram / removidos</h2>${saidas.map(c => rankRow(c, 0)).join("")}</section>`
-    : "";
+    : "") + (showMobSection && mobDiscard.length
+    ? `<section class="sairam descartadas-mob"><h2>Descartadas: mobiliadas</h2><p class="note">Fora do ranking ativo — Alex já tem os móveis. Semi-mobiliada continua no ranking.</p>${mobDiscard.map(c => rankRow(c, 0)).join("")}</section>`
+    : "");
   if (view === "ranking") {
     rankingEl.hidden = false;
     gridEl.hidden = true;
