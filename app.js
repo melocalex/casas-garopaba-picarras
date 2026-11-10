@@ -11,6 +11,64 @@ const fmtDate = (iso) => {
   } catch { return iso; }
 };
 
+
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (ch) => ({
+  "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+}[ch]));
+
+function renderTransporte(info) {
+  const root = document.getElementById("transporte");
+  if (!root) return;
+  if (!info || !Array.isArray(info.cidades) || !info.cidades.length) {
+    root.hidden = true;
+    root.innerHTML = "";
+    return;
+  }
+  root.hidden = false;
+  const cards = info.cidades.map((city) => {
+    const apps = (city.apps || []).map((app) => {
+      const st = app.status === "confirmado" ? "confirmado" : "nao-confirmado";
+      const label = app.status === "confirmado" ? "confirmado" : "não confirmado";
+      const links = (app.fontes || []).map((f) =>
+        `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.label)}</a>`
+      ).join(" · ");
+      return `<li class="tr-app">
+        <div class="tr-app-top">
+          <strong>${esc(app.nome)}</strong>
+          <span class="tr-badge ${st}">${label}</span>
+        </div>
+        <p class="tr-resumo">${esc(app.resumo)}</p>
+        ${links ? `<p class="tr-fontes">Fontes: ${links}</p>` : ""}
+      </li>`;
+    }).join("");
+    return `<article class="tr-card" data-cidade="${esc(city.cidade_filtro || city.nome)}">
+      <h3>${esc(city.nome)}</h3>
+      <ul class="tr-apps">${apps}</ul>
+      ${city.notas ? `<p class="tr-nota">${esc(city.notas)}</p>` : ""}
+    </article>`;
+  }).join("");
+  const quando = info.pesquisado_em
+    ? ` Pesquisa em ${esc(info.pesquisado_em)} (America/Sao_Paulo).`
+    : "";
+  root.innerHTML = `
+    <div class="tr-head">
+      <h2>Transporte por app</h2>
+      <p class="note">${esc(info.aviso || "")}${quando}</p>
+    </div>
+    <div class="tr-grid">${cards}</div>`;
+  highlightTransporte();
+}
+
+function highlightTransporte() {
+  const sel = document.getElementById("cidade");
+  const value = sel ? sel.value : "";
+  document.querySelectorAll(".tr-card").forEach((el) => {
+    const match = !value || el.dataset.cidade === value;
+    el.classList.toggle("is-active", !!value && match);
+    el.classList.toggle("is-dim", !!value && !match);
+  });
+}
+
 const STORAGE_KEY = "casas-escolhas-v1";
 let casas = [];
 let escolhas = {}; // id -> "sim" | "nao"
@@ -79,6 +137,7 @@ async function boot() {
   casas = data.casas || [];
   document.getElementById("atualizado").textContent = fmtDate(data.atualizado_em);
   renderStats(casas);
+  renderTransporte(data.transporte_app);
   ["cidade", "veredito", "minQuartos", "marFilter", "sort", "escolhaFilter", "mobiliaFilter", "viewMode"].forEach((id) => {
     document.getElementById(id).addEventListener("change", () => {
       if (id === "viewMode" && document.getElementById("viewMode").value === "ranking") {
@@ -344,6 +403,7 @@ function updateEscolhaUI() {
 }
 
 function render() {
+  highlightTransporte();
   const list = filtered();
   document.getElementById("count").textContent = `${list.length} casa(s)`;
   updateEscolhaUI();

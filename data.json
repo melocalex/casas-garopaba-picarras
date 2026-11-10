@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-09T18:50:00-03:00",
+  "atualizado_em": "2026-11-10T07:30:00-03:00",
   "fuso": "America/Sao_Paulo",
   "casas": [
     {
@@ -2470,5 +2470,286 @@
     "Balneário Piçarras",
     "Pontal do Paraná (Praia de Leste)",
     "Itapoá (Itapema do Norte)"
-  ]
+  ],
+  "transporte_app": {
+    "pesquisado_em": "2026-11-10",
+    "aviso": "Cidade listada no site do app não garante carro na hora. A própria Uber avisa, nas páginas destas quatro cidades, que a espera pode ser maior que em cidades grandes e sugere agendar. Não encontramos no Reclame Aqui reclamações específicas o bastante destas cidades para avaliar a confiabilidade no dia a dia. Confira no app na hora da corrida.",
+    "cidades": [
+      {
+        "id": "garopaba",
+        "nome": "Garopaba",
+        "cidade_filtro": "Garopaba",
+        "apps": [
+          {
+            "nome": "Uber",
+            "status": "confirmado",
+            "resumo": "UberX listado 24h por dia, 7 dias por semana (página oficial da cidade). A Uber avisa que a espera pode ser maior que em cidade grande e sugere agendar. Táxi pelo app da Uber ainda não está disponível — só UberX.",
+            "fontes": [
+              {
+                "label": "Uber — Garopaba",
+                "url": "https://www.uber.com/global/pt-br/r/cities/garopaba-sc-br/"
+              },
+              {
+                "label": "Lista de cidades Uber no Brasil",
+                "url": "https://www.uber.com/global/pt-br/r/brazil/cities/"
+              },
+              {
+                "label": "Táxi pelo app da Uber em Garopaba",
+                "url": "https://www.uber.com/br/pt-br/r/cities/taxi/garopaba-sc-br/"
+              }
+            ]
+          },
+          {
+            "nome": "99 (99Pop)",
+            "status": "confirmado",
+            "resumo": "Garopaba aparece na lista oficial da 99 em Santa Catarina e tem página de cadastro 99Pop. Um guia local (outubro/2026) disse não ter confirmado a cobertura para passageiros — vale abrir o app antes de depender dela.",
+            "fontes": [
+              {
+                "label": "99 — Garopaba",
+                "url": "https://99app.com/cidades/sc/garopaba/"
+              },
+              {
+                "label": "99 — cidades em SC",
+                "url": "https://99app.com/cidades/sc/"
+              },
+              {
+                "label": "Garopaba Trip — transporte (out/2026)",
+                "url": "https://garopabatrip.com/garopaba/guia-pratico/transporte/"
+              }
+            ]
+          },
+          {
+            "nome": "inDrive",
+            "status": "não confirmado",
+            "resumo": "A inDrive não publica lista municipal completa e não cita Garopaba entre as cidades brasileiras destacadas. A empresa pede para conferir no próprio app.",
+            "fontes": [
+              {
+                "label": "Onde o inDrive está disponível",
+                "url": "https://indrive.com/pt-br/help/about-indrive/where-is-indrive-available"
+              },
+              {
+                "label": "inDrive no Brasil",
+                "url": "https://indrive.com/pt-br"
+              }
+            ]
+          },
+          {
+            "nome": "Táxi local",
+            "status": "confirmado",
+            "resumo": "O site oficial de turismo confirma táxi legalizado em toda a cidade (da Gamboa ao Ouvidor). Um guia de 2026 indica o ponto na Praça Governador Ivo Silveira, tel. (48) 3254-3366. Não encontramos um app local de corrida tipo “Garopaba Go”.",
+            "fontes": [
+              {
+                "label": "Visite Garopaba — informações úteis",
+                "url": "https://visitegaropaba.tur.br/informacoes-uteis/"
+              },
+              {
+                "label": "Garopaba Trip — transporte",
+                "url": "https://garopabatrip.com/garopaba/guia-pratico/transporte/"
+              }
+            ]
+          }
+        ],
+        "notas": "Oficialmente o Uber é o ano todo (24h/7), não só no verão. Mesmo assim, a empresa admite espera maior que em cidade grande."
+      },
+      {
+        "id": "picarras",
+        "nome": "Balneário Piçarras",
+        "cidade_filtro": "Balneário Piçarras",
+        "apps": [
+          {
+            "nome": "Uber",
+            "status": "confirmado",
+            "resumo": "UberX listado 24h/7 na página oficial da cidade (também na lista nacional). A Uber avisa que a espera pode ser maior que em cidade grande e sugere agendar. Táxi pelo app da Uber ainda não está disponível. A página cita destinos populares como o Terminal Rodoviário de Piçarras e o Beto Carrero World.",
+            "fontes": [
+              {
+                "label": "Uber — Balneário Piçarras",
+                "url": "https://www.uber.com/global/pt-br/r/cities/balneario-picarras-sc-br/"
+              },
+              {
+                "label": "Lista de cidades Uber no Brasil",
+                "url": "https://www.uber.com/global/pt-br/r/brazil/cities/"
+              },
+              {
+                "label": "Táxi pelo app da Uber em Piçarras",
+                "url": "https://www.uber.com/br/pt-br/r/cities/taxi/balneario-picarras-sc-br/"
+              }
+            ]
+          },
+          {
+            "nome": "99 (99Pop / 99Táxi)",
+            "status": "confirmado",
+            "resumo": "Balneário Piçarras aparece na lista oficial da 99 em SC e tem página de cadastro com as categorias 99Pop e 99Táxi. Sem restrição de temporada no site atual.",
+            "fontes": [
+              {
+                "label": "99 — Balneário Piçarras",
+                "url": "https://99app.com/cidades/sc/balneario-picarras/"
+              },
+              {
+                "label": "99 — cidades em SC",
+                "url": "https://99app.com/cidades/sc/"
+              }
+            ]
+          },
+          {
+            "nome": "inDrive",
+            "status": "não confirmado",
+            "resumo": "A inDrive não cita Balneário Piçarras nas cidades brasileiras destacadas e não publica lista municipal completa. Conferir no app.",
+            "fontes": [
+              {
+                "label": "Onde o inDrive está disponível",
+                "url": "https://indrive.com/pt-br/help/about-indrive/where-is-indrive-available"
+              },
+              {
+                "label": "inDrive no Brasil",
+                "url": "https://indrive.com/pt-br"
+              }
+            ]
+          },
+          {
+            "nome": "Táxi local / app próprio",
+            "status": "não confirmado",
+            "resumo": "Há menções a ponto de táxi na rodoviária em guias telefônicos, mas não encontramos um aplicativo local de corrida com fonte oficial recente.",
+            "fontes": []
+          }
+        ],
+        "notas": "Oficialmente Uber e 99 constam o ano todo. Não há, nas páginas oficiais atuais, cláusula de funcionamento só no verão."
+      },
+      {
+        "id": "pontal",
+        "nome": "Pontal do Paraná (Praia de Leste)",
+        "cidade_filtro": "Pontal do Paraná (Praia de Leste)",
+        "apps": [
+          {
+            "nome": "Uber",
+            "status": "confirmado",
+            "resumo": "UberX listado 24h/7 na página oficial do município (e na lista nacional). Destinos populares da própria Uber incluem Bavaresco Praia de Leste e o Pronto Atendimento 24 Horas de Praia de Leste, o que amarra a cobertura ao balneário. A Uber avisa que a espera pode ser maior que em cidade grande.",
+            "fontes": [
+              {
+                "label": "Uber — Pontal do Paraná",
+                "url": "https://www.uber.com/global/pt-br/r/cities/pontal-do-parana-pr-br/"
+              },
+              {
+                "label": "Lista de cidades Uber no Brasil",
+                "url": "https://www.uber.com/global/pt-br/r/brazil/cities/"
+              }
+            ]
+          },
+          {
+            "nome": "99 (99Pop)",
+            "status": "confirmado",
+            "resumo": "Pontal do Paraná está na lista oficial da 99 no Paraná e tem página de cadastro 99Pop, sem restrição de temporada no site atual. Em dezembro de 2017 a Gazeta do Povo noticiou que a 99POP começava no litoral de olho no verão, e que em Pontal só a Uber já operava (desde agosto daquele ano). Isso é histórico; hoje as duas aparecem nas listas oficiais.",
+            "fontes": [
+              {
+                "label": "99 — Pontal do Paraná",
+                "url": "https://99app.com/cidades/pr/pontal-do-parana/"
+              },
+              {
+                "label": "99 — cidades no PR",
+                "url": "https://99app.com/cidades/pr/"
+              },
+              {
+                "label": "Gazeta do Povo, 24/12/2017",
+                "url": "https://www.gazetadopovo.com.br/curitiba/uber-e-99pop-vao-atender-matinhos-guaratuba-e-paranagua-14max370etqu2exe6s1mo0ha9/"
+              }
+            ]
+          },
+          {
+            "nome": "inDrive",
+            "status": "não confirmado",
+            "resumo": "A inDrive destaca Curitiba e outras capitais, mas não cita Pontal do Paraná ou Praia de Leste. Conferir no app.",
+            "fontes": [
+              {
+                "label": "Onde o inDrive está disponível",
+                "url": "https://indrive.com/pt-br/help/about-indrive/where-is-indrive-available"
+              },
+              {
+                "label": "inDrive no Brasil",
+                "url": "https://indrive.com/pt-br"
+              }
+            ]
+          },
+          {
+            "nome": "UNITÁXI / táxi local",
+            "status": "não confirmado",
+            "resumo": "Em 2019 um blog local ensinou a usar o app UNITÁXI em Pontal do Paraná, e o aplicativo ainda existe nas lojas. Não confirmamos com fonte recente se a frota local continua ativa — vale perguntar na central ou no ponto de táxi.",
+            "fontes": [
+              {
+                "label": "Inet Pontal — como usar o UNITÁXI (2019)",
+                "url": "http://inetpontal.blogspot.com/2019/02/utilidade-publica-video-mostra-como.html"
+              }
+            ]
+          }
+        ],
+        "notas": "Páginas oficiais atuais da Uber e da 99 não limitam o serviço ao verão. A reportagem de 2017 só descreve o lançamento da 99POP no litoral na temporada daquele ano."
+      },
+      {
+        "id": "itapoa",
+        "nome": "Itapoá (Itapema do Norte)",
+        "cidade_filtro": "Itapoá (Itapema do Norte)",
+        "apps": [
+          {
+            "nome": "Uber",
+            "status": "confirmado",
+            "resumo": "UberX listado 24h/7 na página oficial de Itapoá (e na lista nacional). A Uber avisa que a espera pode ser maior que em cidade grande. Táxi pelo app da Uber ainda não está disponível. A tabela de destinos populares da própria Uber em Itapoá lista pontos em Guaratuba (ex.: Rodoviária de Guaratuba, média UberX R$ 61) — não há, nessa página, a distância em km.",
+            "fontes": [
+              {
+                "label": "Uber — Itapoá",
+                "url": "https://www.uber.com/global/pt-br/r/cities/itapoa-sc-br/"
+              },
+              {
+                "label": "Lista de cidades Uber no Brasil",
+                "url": "https://www.uber.com/global/pt-br/r/brazil/cities/"
+              },
+              {
+                "label": "Táxi pelo app da Uber em Itapoá",
+                "url": "https://www.uber.com/br/pt-br/r/cities/taxi/itapoa-sc-br/"
+              }
+            ]
+          },
+          {
+            "nome": "99 (99Pop)",
+            "status": "confirmado",
+            "resumo": "Itapoá aparece na lista oficial da 99 em SC e tem página de cadastro 99Pop. Cuidado para não confundir com Itapema (outra cidade, também listada pela 99). Sem restrição de temporada no site atual.",
+            "fontes": [
+              {
+                "label": "99 — Itapoá",
+                "url": "https://99app.com/cidades/sc/itapoa/"
+              },
+              {
+                "label": "99 — cidades em SC",
+                "url": "https://99app.com/cidades/sc/"
+              }
+            ]
+          },
+          {
+            "nome": "inDrive",
+            "status": "não confirmado",
+            "resumo": "A inDrive não cita Itapoá nem Itapema do Norte nas cidades brasileiras destacadas. Conferir no app.",
+            "fontes": [
+              {
+                "label": "Onde o inDrive está disponível",
+                "url": "https://indrive.com/pt-br/help/about-indrive/where-is-indrive-available"
+              },
+              {
+                "label": "inDrive no Brasil",
+                "url": "https://indrive.com/pt-br"
+              }
+            ]
+          },
+          {
+            "nome": "Zappi / app local",
+            "status": "não confirmado",
+            "resumo": "Existe o app Zappi (transporte executivo de bairro, atualizado em outubro/2026), e diretórios de terceiros o associam a Itapoá. A ficha oficial do app no Google Play não afirma cobertura em Itapoá, então não consideramos confirmado.",
+            "fontes": [
+              {
+                "label": "Zappi no Google Play",
+                "url": "https://play.google.com/store/apps/details?id=br.com.devbase.zappiapp&hl=pt"
+              }
+            ]
+          }
+        ],
+        "notas": "Oficialmente Uber e 99 constam o ano todo em Itapoá. Não inventamos distância até outra cidade: a Uber lista destinos em Guaratuba, mas não informa os km."
+      }
+    ]
+  }
 }
