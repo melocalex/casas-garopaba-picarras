@@ -261,22 +261,24 @@ function rankRow(c, pos, opts={}) {
   const showMotivo = opts.showMotivo || descartada || sumiu;
   const posLabel = (sumiu || descartada || !pos) ? "—" : "#"+pos;
   return `<article class="rank-row${muted}${markClass}${sumiuClass}" data-house-id="${c.id}">
-    <div class="rank-pos">${posLabel}</div>
-    <div class="rank-score"><strong>${c.nota_qualidade}</strong><span>/10</span></div>
-    ${thumbHtml(c)}
-    <div class="rank-main">
+    <div class="rank-head">
+      <div class="rank-pos">${posLabel}</div>
+      <div class="rank-score"><strong>${c.nota_qualidade}</strong><span>/10</span></div>
       <div class="rank-top">
         ${badge}
         ${mobiliaBadge(c)}
         <span class="rank-place">${c.cidade} · ${val(c.bairro)}</span>
       </div>
+    </div>
+    ${thumbHtml(c)}
+    <div class="rank-main">
       <div class="rank-title">${c.titulo}</div>
       <div class="rank-meta">${money(c.total_estimado)} · ${val(c.quartos)} q · 🌊 ${dist}${housePhotos(c).length ? ` · ${housePhotos(c).length} fotos` : ""}</div>
       <div class="rank-reason">${razao}</div>
       ${showMotivo ? motivo : ""}
-      ${escolhaButtons(c.id)}
     </div>
     <div class="rank-actions">
+      ${escolhaButtons(c.id)}
       <a href="${c.url}" target="_blank" rel="noopener">Anúncio</a>
     </div>
   </article>`;
