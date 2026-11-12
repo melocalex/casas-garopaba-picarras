@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-12T11:30:00-03:00",
+ "atualizado_em": "2026-11-12T10:12:00-03:00",
  "fuso": "America/Sao_Paulo",
  "casas": [
   {
@@ -1237,9 +1237,9 @@
    "disponibilidade": "",
    "praia_declarada": null,
    "pets": "sim",
-   "mobiliado": "semi",
+   "mobiliado": "sim",
    "nota_qualidade": 6.0,
-   "veredito": "talvez",
+   "veredito": "pular",
    "pros": [
     "mais barata Garopaba",
     "quintal gramado",
@@ -1250,16 +1250,16 @@
     "interior escuro/compacto",
     "bangalô de madeira",
     "'360 m² construídos' parece erro",
-    "VivaReal (12/11) diz que tem mobília na cozinha e nos quartos — confirmar se aluga sem móveis"
+    "fotos mostram geladeira, mesa com cadeiras, camas com colchão e guarda-roupa; OLX e VivaReal dizem “mobília na cozinha e quartos” e a OLX marca “Mobiliado”"
    ],
-   "analise": "Bangalô econômico com quintal. Interior limitado. Boa porta de entrada se o orçamento apertar e a visita confirmar condição.",
+   "analise": "Bangalô econômico com quintal. Interior limitado. Boa porta de entrada se o orçamento apertar e a visita confirmar condição. Revisão 12/11: as fotos mostram geladeira, mesa de jantar com cadeiras, duas camas com colchão e guarda-roupa, e o texto (OLX e VivaReal) diz “casa com mobília na cozinha e quartos” — tratada como mobiliada. Só volta se aceitarem alugar sem os móveis.",
    "foto": "images/gar-olx-campoduna.jpg",
-   "status": "ativo",
-   "visto_em": "2026-11-09",
+   "status": "descartada_mobiliada",
+   "visto_em": "2026-11-12",
    "adicionado_em": "2026-11-09",
    "distancia_mar": null,
    "distancia_mar_metros": null,
-   "razao": "Bangalô econômico com quintal.",
+   "razao": "parece mobiliada (VivaReal diz mobília na cozinha e quartos), perguntar se aluga sem móveis",
    "photos": [
     "images/gar-olx-campoduna/01.jpg",
     "images/gar-olx-campoduna/02.jpg",
@@ -1271,8 +1271,8 @@
     "images/gar-olx-campoduna/08.jpg",
     "images/gar-olx-campoduna/09.jpg"
    ],
-   "mobilia": "semimobiliada",
-   "motivo_nao_aceita": null
+   "mobilia": "mobiliada (pelas fotos e texto)",
+   "motivo_nao_aceita": "parece mobiliada (VivaReal diz mobília na cozinha e quartos), perguntar se aluga sem móveis"
   },
   {
    "id": "pic-olx-1528599147",
@@ -5890,16 +5890,16 @@
    "id": "pic-portal-24979",
    "cidade": "Balneário Piçarras",
    "bairro": "Nossa Senhora da Conceição",
-   "titulo": "Casa térrea 2 quartos (1 suíte) com quintal — Portal 24979",
+   "titulo": "Casa térrea 2 quartos (1 suíte) com quintal — Portal 24979 / OLX 1552221525",
    "url": "https://www.imoveisportal.com/casa/locacao/balneario-picarras/nossa-senhora-da-conceicao/35724979",
-   "fonte": "Imóveis Portal Piçarras",
+   "fonte": "Imóveis Portal Piçarras (também na OLX 1552221525, publicada 12/11/2026)",
    "aluguel": 2400,
    "taxas": {
     "iptu": null,
     "lixo": 49.92,
     "condo": null,
     "seguro": null,
-    "observacao": "IPTU “a confirmar”; seguro incêndio a cotar; água e luz à parte. Garantias: Loft, CredAluga, seguro-fiança ou Loft Investe. Anúncio novo (fotos de 11/11/2026)."
+    "observacao": "IPTU “a confirmar”; seguro incêndio a cotar; água e luz à parte. Garantias: Loft, CredAluga, seguro-fiança ou Loft Investe. Anúncio novo (fotos de 11/11/2026). Mesma casa na OLX 1552221525 (título com “Cód. 24979”, R$2.400, lixo R$49,92, IPTU “a confirmar”); OLX marca área 70 m² (descrição ~80 m²)."
    },
    "total_estimado": 2449.92,
    "quartos": 2,
@@ -5924,9 +5924,10 @@
     "piso do pátio dos fundos com limo/umidade (área sombreada)",
     "bairro N. Sra. da Conceição, mais para dentro (anúncio não informa distância do mar)",
     "IPTU ainda “a confirmar”",
-    "anual não confirmado"
+    "anual não confirmado",
+    "conflito de mobília: a OLX marca “Mobiliado”, mas as 22 fotos (iguais nos dois anúncios) mostram a casa vazia — confirmar com a imobiliária"
    ],
-   "analise": "Casa térrea recente, com frente de brita e um pouco de grama, cobertura de madeira na entrada e muros altos com portão metálico fechado — boa privacidade. Por dentro está vazia: porcelanato cinza, forro de madeira, luminárias embutidas, ar-condicionado em vários cômodos e janelas grandes, com boa luz. O banheiro é novo (box de vidro, bancada com gabinete). Nos fundos há uma área de serviço coberta, uma escada externa para uma laje/terraço e um pátio de concreto estreito, onde aparece limo verde no piso — sinal de umidade e pouco sol nessa parte; vale olhar paredes e rodapés na visita. Não aparece mofo dentro de casa. Pelo padrão, R$2.400 + lixo é um preço bom para Piçarras.",
+   "analise": "Casa térrea recente, com frente de brita e um pouco de grama, cobertura de madeira na entrada e muros altos com portão metálico fechado — boa privacidade. Por dentro está vazia: porcelanato cinza, forro de madeira, luminárias embutidas, ar-condicionado em vários cômodos e janelas grandes, com boa luz. O banheiro é novo (box de vidro, bancada com gabinete). Nos fundos há uma área de serviço coberta, uma escada externa para uma laje/terraço e um pátio de concreto estreito, onde aparece limo verde no piso — sinal de umidade e pouco sol nessa parte; vale olhar paredes e rodapés na visita. Não aparece mofo dentro de casa. Pelo padrão, R$2.400 + lixo é um preço bom para Piçarras. DUPLICATA (12/11): o anúncio OLX 1552221525 é a mesma casa — título traz “Cód. 24979”, mesmo bairro, mesmo preço e as 20 fotos da OLX são idênticas às fotos 1–20 do Portal. Conflito: a OLX tem a característica “Mobiliado” marcada, enquanto o Portal e todas as fotos mostram a casa vazia (só ar-condicionado, cortinas, cabeceira de madeira fixa na parede e gabinetes de banheiro — itens fixos, não móveis soltos). Provavelmente é a caixinha marcada por causa desses itens fixos ou por erro; mantida como “sem móveis”, mas pergunte à imobiliária se entra algum móvel solto.",
    "foto": "images/pic-portal-24979.jpg",
    "status": "ativo",
    "visto_em": "2026-11-12",
@@ -5958,8 +5959,9 @@
     "images/pic-portal-24979/21.jpg",
     "images/pic-portal-24979/22.jpg"
    ],
-   "mobilia": "sem móveis",
-   "motivo_nao_aceita": null
+   "mobilia": "sem móveis (pelas fotos; OLX marca “Mobiliado” — confirmar)",
+   "motivo_nao_aceita": null,
+   "url_alt": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/casa-disponivel-para-locacao-no-bairro-nossa-sr-da-conceicao-de-balneario-picarras-sc-c-1552221525"
   },
   {
    "id": "gar-renda-l812",
@@ -7423,6 +7425,79 @@
    ],
    "mobilia": "mobiliada (pelas fotos)",
    "motivo_nao_aceita": "anunciada como semimobiliada, mas as fotos mostram sofá, camas e geladeira — perguntar se aluga sem móveis"
+  },
+  {
+   "id": "pic-olx-1551990753",
+   "cidade": "Balneário Piçarras",
+   "bairro": "Itacolomi",
+   "titulo": "Sobrado novo 2 suítes de esquina — OLX 1551990753 (Eliane Imóveis Litoral)",
+   "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/sobrado-em-itacolomi-balneario-picarras-1551990753",
+   "fonte": "OLX (Eliane Imóveis Litoral)",
+   "aluguel": 3500,
+   "taxas": {
+    "iptu": 100,
+    "lixo": null,
+    "condo": 0,
+    "seguro": null,
+    "observacao": "Total OLX R$3.600 com IPTU (R$100 acima do teto de R$3.500). Anúncio diz “adquirir ou alugar”; prazo anual não informado. Publicado 11/11/2026."
+   },
+   "total_estimado": 3600,
+   "quartos": 2,
+   "banheiros": 2,
+   "area_m2": 80,
+   "anual": "não confirmado",
+   "disponibilidade": "",
+   "praia_declarada": "",
+   "pets": "",
+   "mobiliado": "semi",
+   "nota_qualidade": 7.0,
+   "veredito": "talvez",
+   "pros": [
+    "sobrado novo, acabamento moderno e limpo",
+    "2 suítes (texto) + ar-condicionado nos quartos",
+    "cozinha planejada com bancada de granito e mesa/banco fixos",
+    "sacadas no andar de cima e varanda frontal envidraçada com cobertura",
+    "garagem para 2 carros com portão"
+   ],
+   "contras": [
+    "R$3.600 com IPTU — passa do teto de R$3.500",
+    "geminado, de esquina e com frente toda de vidro para a rua (pouca privacidade na frente)",
+    "sem quintal verde: só faixa lateral de piso e brita",
+    "anual não confirmado (anúncio diz “adquirir ou alugar”)",
+    "distância do mar não informada"
+   ],
+   "analise": "Sobrado geminado novo de esquina (nº 463, unidade 2), fachada cinza com tijolinho laranja. Térreo: varanda frontal fechada com vidro e cobertura de policarbonato, piso cerâmico; cozinha planejada verde-sálvia com granito preto e um canto alemão (mesa e bancos fixos de madeira). Andar de cima: quartos claros com ar-condicionado e porta de vidro para sacada com guarda-corpo de vidro; banheiros novos com cuba de apoio e box de vidro. Tudo vazio além dos planejados — semimobiliada no máximo. Fotos claras, sem sinais de mofo ou umidade. Ponto fraco: não há quintal (só um corredor lateral de piso e brita) e a frente envidraçada dá para a rua, com pouca privacidade. Pelo padrão, preço cheio; R$3.600 total passa um pouco do teto.",
+   "foto": "images/pic-olx-1551990753.jpg",
+   "status": "ativo",
+   "visto_em": "2026-11-12",
+   "adicionado_em": "2026-11-12",
+   "distancia_mar": "não informada",
+   "distancia_mar_metros": null,
+   "razao": "Sobrado novo e bonito com 2 suítes, mas R$3.600 com IPTU, sem quintal e anual não confirmado.",
+   "photos": [
+    "images/pic-olx-1551990753/01.jpg",
+    "images/pic-olx-1551990753/02.jpg",
+    "images/pic-olx-1551990753/03.jpg",
+    "images/pic-olx-1551990753/04.jpg",
+    "images/pic-olx-1551990753/05.jpg",
+    "images/pic-olx-1551990753/06.jpg",
+    "images/pic-olx-1551990753/07.jpg",
+    "images/pic-olx-1551990753/08.jpg",
+    "images/pic-olx-1551990753/09.jpg",
+    "images/pic-olx-1551990753/10.jpg",
+    "images/pic-olx-1551990753/11.jpg",
+    "images/pic-olx-1551990753/12.jpg",
+    "images/pic-olx-1551990753/13.jpg",
+    "images/pic-olx-1551990753/14.jpg",
+    "images/pic-olx-1551990753/15.jpg",
+    "images/pic-olx-1551990753/16.jpg",
+    "images/pic-olx-1551990753/17.jpg",
+    "images/pic-olx-1551990753/18.jpg",
+    "images/pic-olx-1551990753/19.jpg",
+    "images/pic-olx-1551990753/20.jpg"
+   ],
+   "mobilia": "semimobiliada (cozinha planejada e mesa/banco fixos; sem móveis soltos nas fotos)",
+   "motivo_nao_aceita": null
   }
  ],
  "cidades": [
