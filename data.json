@@ -22758,6 +22758,272 @@
         "images/pb-dez-310091625/19.jpg",
         "images/pb-dez-310091625/20.jpg"
       ]
+    },
+    {
+      "id": "pb-olx-1548632713",
+      "cidade": "Porto Belo",
+      "bairro": "Alto Perequê",
+      "titulo": "Sobrado para aluguel com 69 metros quadrados com 2 quartos em Alto Perequê - Porto Belo",
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/sobrado-para-aluguel-com-69-metros-quadrados-com-2-quartos-em-alto-pereque-porto-belo-1548632713",
+      "fonte": "OLX",
+      "aluguel": 3550,
+      "taxas": {
+        "iptu": 20.83,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "IPTU R$250/ano segundo o anúncio (a OLX mostra total R$3.800). Caução ou seguro-fiança. Taurus Investimentos Imobiliários."
+      },
+      "total_estimado": 3570.83,
+      "quartos": 2,
+      "banheiros": 3,
+      "area_m2": 69,
+      "anual": "não confirmado",
+      "praia_declarada": "",
+      "distancia_mar": "não informada",
+      "distancia_mar_metros": null,
+      "pets": "",
+      "mobiliado": "não",
+      "mobilia": "vazia (fotos: cômodos vazios, só um móvel pequeno)",
+      "nota_qualidade": 6.5,
+      "veredito": "pular",
+      "pros": [
+        "sobrado novo com 2 suítes e 3 banheiros",
+        "fotos mostram casa vazia e bem acabada",
+        "sem condomínio"
+      ],
+      "contras": [
+        "R$3.550 + IPTU já passa do teto",
+        "anual não confirmado",
+        "69 m², 1 vaga"
+      ],
+      "analise": "Sobrado na Rua Antonio Rocha 132 (casa 3), Alto Perequê, vazio nas fotos. O anúncio diz IPTU de R$250 por ano (a OLX soma R$250 como se fosse mensal e mostra R$3.800). Mesmo com ~R$21/mês de IPTU, o total fica em ~R$3.571, acima do teto.",
+      "razao": "Vazio e novo, mas fica um pouco acima do teto.",
+      "motivo_nao_aceita": "acima do teto (R$3.570,83)",
+      "status": "descartada_mobiliada",
+      "foto": "images/pb-olx-1548632713.jpg",
+      "photos": [
+        "images/pb-olx-1548632713/01.jpg",
+        "images/pb-olx-1548632713/02.jpg",
+        "images/pb-olx-1548632713/03.jpg",
+        "images/pb-olx-1548632713/04.jpg",
+        "images/pb-olx-1548632713/05.jpg"
+      ],
+      "visto_em": "2026-11-26",
+      "adicionado_em": "2026-11-26",
+      "disponibilidade": ""
+    },
+    {
+      "id": "pb-olx-1543394265",
+      "cidade": "Porto Belo",
+      "bairro": "Balneário Perequê",
+      "titulo": "Aluga-se Casa no Bairro Perequê",
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/aluga-se-casa-no-bairro-pereque-47-9-1543394265",
+      "fonte": "OLX",
+      "aluguel": 3950,
+      "taxas": {
+        "iptu": 130,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Particular. IPTU R$130."
+      },
+      "total_estimado": 4080,
+      "quartos": 4,
+      "banheiros": 2,
+      "area_m2": 160,
+      "anual": "não confirmado",
+      "praia_declarada": "",
+      "distancia_mar": "não informada",
+      "distancia_mar_metros": null,
+      "pets": "aceita pet",
+      "mobiliado": "não",
+      "mobilia": "vazia (fotos: cômodos vazios)",
+      "nota_qualidade": 6.0,
+      "veredito": "pular",
+      "pros": [
+        "4 dormitórios, 4 vagas cobertas, terreno grande",
+        "aceita pet",
+        "particular"
+      ],
+      "contras": [
+        "R$4.080 com IPTU, acima do teto",
+        "anual não confirmado",
+        "prédios altos ao redor"
+      ],
+      "analise": "Casa térrea na Rua Alfredo Walter Graf, Perequê, com 4 dormitórios, varanda e terreno amplo, vazia nas fotos. Acima do teto.",
+      "razao": "Ampla e vazia, mas R$4.080.",
+      "motivo_nao_aceita": "acima do teto (R$4.080)",
+      "status": "descartada_mobiliada",
+      "foto": "images/pb-olx-1543394265.jpg",
+      "photos": [
+        "images/pb-olx-1543394265/01.jpg",
+        "images/pb-olx-1543394265/02.jpg",
+        "images/pb-olx-1543394265/03.jpg",
+        "images/pb-olx-1543394265/04.jpg",
+        "images/pb-olx-1543394265/05.jpg"
+      ],
+      "visto_em": "2026-11-26",
+      "adicionado_em": "2026-11-26",
+      "disponibilidade": ""
+    },
+    {
+      "id": "pb-olx-1552173489",
+      "cidade": "Porto Belo",
+      "bairro": "Balneário Perequê",
+      "titulo": "Térrea para aluguel tem 111 metros quadrados com 3 quartos em Balneario Perequê - Porto Be",
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/terrea-para-aluguel-tem-111-metros-quadrados-com-3-quartos-em-balneario-pereque-porto-be-1552173489",
+      "fonte": "OLX",
+      "aluguel": 4200,
+      "taxas": {
+        "iptu": 110,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "IPTU R$110. Taurus Investimentos Imobiliários."
+      },
+      "total_estimado": 4310,
+      "quartos": 3,
+      "banheiros": 2,
+      "area_m2": 111,
+      "anual": "não confirmado",
+      "praia_declarada": "",
+      "distancia_mar": "não informada",
+      "distancia_mar_metros": null,
+      "pets": "aceita pet",
+      "mobiliado": "não",
+      "mobilia": "vazia (fotos: externas e um cômodo vazio)",
+      "nota_qualidade": 5.5,
+      "veredito": "pular",
+      "pros": [
+        "casa térrea de 111 m², 3 quartos",
+        "aceita pet"
+      ],
+      "contras": [
+        "R$4.310 com IPTU, acima do teto",
+        "fotos quase só externas",
+        "anual não confirmado"
+      ],
+      "analise": "Casa térrea no Perequê, 3 quartos, 2 banheiros, 1 vaga (Taurus). Fotos mostram corredor lateral e um cômodo vazio. Acima do teto.",
+      "razao": "Acima do teto.",
+      "motivo_nao_aceita": "acima do teto (R$4.310)",
+      "status": "descartada_mobiliada",
+      "foto": "images/pb-olx-1552173489.jpg",
+      "photos": [
+        "images/pb-olx-1552173489/01.jpg",
+        "images/pb-olx-1552173489/02.jpg",
+        "images/pb-olx-1552173489/03.jpg",
+        "images/pb-olx-1552173489/04.jpg",
+        "images/pb-olx-1552173489/05.jpg"
+      ],
+      "visto_em": "2026-11-26",
+      "adicionado_em": "2026-11-26",
+      "disponibilidade": ""
+    },
+    {
+      "id": "pb-olx-1540531310",
+      "cidade": "Porto Belo",
+      "bairro": "Balneário Perequê",
+      "titulo": "CASA PARA LOCAÇÃO ANUAL EM PORTO BELO - 400M DO MAR",
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/casa-para-locacao-anual-em-porto-belo-400m-do-mar-1540531310",
+      "fonte": "OLX",
+      "aluguel": 4500,
+      "taxas": {
+        "iptu": null,
+        "lixo": null,
+        "condo": null,
+        "seguro": null,
+        "observacao": "Taxas inclusas segundo o anúncio. Requer seguro-fiança."
+      },
+      "total_estimado": 4500,
+      "quartos": 3,
+      "banheiros": 4,
+      "area_m2": 80,
+      "anual": "sim",
+      "praia_declarada": "",
+      "distancia_mar": "400 m do mar (segundo o anúncio)",
+      "distancia_mar_metros": 400,
+      "pets": "aceita pet",
+      "mobiliado": "semi",
+      "mobilia": "semimobiliada; fotos mostram ambientes vazios com balcão de cozinha, ar-condicionado e uma cama citada no texto",
+      "nota_qualidade": 6.5,
+      "veredito": "pular",
+      "pros": [
+        "anual, taxas inclusas",
+        "3 quartos (2 suítes), vaga para 4 carros, área gourmet",
+        "400 m do mar segundo o anúncio",
+        "aceita pet"
+      ],
+      "contras": [
+        "R$4.500 acima do teto",
+        "só o térreo; o proprietário usa o andar de cima"
+      ],
+      "analise": "Locação anual do térreo de uma casa no Perequê, 400 m do mar segundo o anúncio, com taxas inclusas. Fotos mostram ambientes vazios e bem acabados. Fica fora pelo preço.",
+      "razao": "Anual e semi, mas R$4.500.",
+      "motivo_nao_aceita": "acima do teto (R$4.500)",
+      "status": "descartada_mobiliada",
+      "foto": "images/pb-olx-1540531310.jpg",
+      "photos": [
+        "images/pb-olx-1540531310/01.jpg",
+        "images/pb-olx-1540531310/02.jpg",
+        "images/pb-olx-1540531310/03.jpg",
+        "images/pb-olx-1540531310/04.jpg",
+        "images/pb-olx-1540531310/05.jpg"
+      ],
+      "visto_em": "2026-11-26",
+      "adicionado_em": "2026-11-26",
+      "disponibilidade": ""
+    },
+    {
+      "id": "pb-olx-1446610618",
+      "cidade": "Porto Belo",
+      "bairro": "Balneário Perequê",
+      "titulo": "Sobrado com Vista para o Mar para Locação em Perequê Porto Belo | Cadore Imóveis",
+      "url": "https://sc.olx.com.br/norte-de-santa-catarina/imoveis/sobrado-com-vista-para-o-mar-para-locacao-em-pereque-porto-belo-cadore-imoveis-1446610618",
+      "fonte": "OLX",
+      "aluguel": 10000,
+      "taxas": {
+        "iptu": null,
+        "lixo": null,
+        "condo": 600,
+        "seguro": null,
+        "observacao": "Condomínio ~R$600; IPTU a confirmar. CredPago ou fiador."
+      },
+      "total_estimado": 10600,
+      "quartos": 3,
+      "banheiros": 3,
+      "area_m2": 140,
+      "anual": "não confirmado",
+      "praia_declarada": "",
+      "distancia_mar": "a poucos metros da praia (o anúncio não informa a distância em metros)",
+      "distancia_mar_metros": null,
+      "pets": "",
+      "mobiliado": "sim",
+      "mobilia": "mobiliado (fotos: sofás, mesa de jantar, TV, cozinha planejada)",
+      "nota_qualidade": 7.0,
+      "veredito": "pular",
+      "pros": [
+        "vista para o mar, condomínio fechado com piscina"
+      ],
+      "contras": [
+        "R$10.600 com condomínio",
+        "mobiliado"
+      ],
+      "analise": "Sobrado de alto padrão em condomínio no Perequê, com vista para o mar, mobiliado (Cadore Imóveis). Muito acima do teto.",
+      "razao": "Mobiliado e muito acima do teto.",
+      "motivo_nao_aceita": "acima do teto (R$10.600); mobiliada",
+      "status": "descartada_mobiliada",
+      "foto": "images/pb-olx-1446610618.jpg",
+      "photos": [
+        "images/pb-olx-1446610618/01.jpg",
+        "images/pb-olx-1446610618/02.jpg",
+        "images/pb-olx-1446610618/03.jpg",
+        "images/pb-olx-1446610618/04.jpg",
+        "images/pb-olx-1446610618/05.jpg"
+      ],
+      "visto_em": "2026-11-26",
+      "adicionado_em": "2026-11-26",
+      "disponibilidade": ""
     }
   ],
   "cidades": [
