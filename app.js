@@ -212,6 +212,7 @@ function renderStats(list) {
   document.getElementById("statPic").textContent = ativos.filter(c => c.cidade === "Balneário Piçarras").length;
   document.getElementById("statPdl").textContent = ativos.filter(c => c.cidade.startsWith("Pontal")).length;
   document.getElementById("statIta").textContent = ativos.filter(c => c.cidade.startsWith("Itapoá")).length;
+  document.getElementById("statBds").textContent = ativos.filter(c => c.cidade === "Balneário Barra do Sul").length;
   document.getElementById("statBest").textContent = barata
     ? `${money(barata.total_estimado)} · ${barata.bairro}`
     : "—";
