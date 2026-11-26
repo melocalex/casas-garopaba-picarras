@@ -214,6 +214,7 @@ function renderStats(list) {
   document.getElementById("statIta").textContent = ativos.filter(c => c.cidade.startsWith("Itapoá")).length;
   document.getElementById("statBds").textContent = ativos.filter(c => c.cidade === "Balneário Barra do Sul").length;
   document.getElementById("statSfs").textContent = ativos.filter(c => c.cidade === "São Francisco do Sul").length;
+  document.getElementById("statPb").textContent = ativos.filter(c => c.cidade === "Porto Belo").length;
   document.getElementById("statBest").textContent = barata
     ? `${money(barata.total_estimado)} · ${barata.bairro}`
     : "—";
